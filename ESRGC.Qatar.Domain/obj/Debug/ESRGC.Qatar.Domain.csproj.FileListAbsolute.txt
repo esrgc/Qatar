@@ -1,0 +1,5 @@
+D:\Projects\Qatar\Qatar\ESRGC.Qatar.Domain\bin\Debug\ESRGC.Qatar.Domain.dll
+D:\Projects\Qatar\Qatar\ESRGC.Qatar.Domain\bin\Debug\ESRGC.Qatar.Domain.pdb
+D:\Projects\Qatar\Qatar\ESRGC.Qatar.Domain\obj\Debug\ESRGC.Qatar.Domain.csprojResolveAssemblyReference.cache
+D:\Projects\Qatar\Qatar\ESRGC.Qatar.Domain\obj\Debug\ESRGC.Qatar.Domain.dll
+D:\Projects\Qatar\Qatar\ESRGC.Qatar.Domain\obj\Debug\ESRGC.Qatar.Domain.pdb

@@ -1,0 +1,32 @@
+﻿@{
+    ViewBag.Title = "Routing web map";
+}
+@section headContent{
+    <link href="~/Client/jsLib/leaflet-0.7.2/leaflet.css" rel="stylesheet" />
+    <link href="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.css" rel="stylesheet" />
+}
+@section header{
+    <header class="header-content">
+        <h2>Qatar Routing Map</h2>
+    </header>
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="map" id="map"></div>
+        </div>
+    </div>
+</div>
+
+
+@section scripts{
+    <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
+    <script src="~/Client/jsLib/leaflet-0.7.2/leaflet.js"></script>
+    <script src="~/Client/jsLib/wicket-leaflet/wicket-leaflet.js"></script>
+    <script src="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
+    <script src="~/Client/js/dx/dx.min.js"></script>
+    <script src="~/Client/js/dx/map/mapViewer.js"></script>
+    <script src="~/Client/js/dx/map/leafletViewer.js"></script>
+    @Scripts.Render("~/bundles/apps/routing")
+}

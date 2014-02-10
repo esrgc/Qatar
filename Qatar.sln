@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.WebApp", "ESRGC.Qatar.WebApp\ESRGC.Qatar.WebApp.csproj", "{DA6553F7-7270-4397-9FC3-78856F6BCC06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.Tests", "ESRGC.Qatar.Tests\ESRGC.Qatar.Tests.csproj", "{D23DF537-3B78-4D8D-85B9-E30BDE909991}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.Domain", "ESRGC.Qatar.Domain\ESRGC.Qatar.Domain.csproj", "{7331F168-2C9B-413E-A1AC-851D2D76F240}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DA6553F7-7270-4397-9FC3-78856F6BCC06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6553F7-7270-4397-9FC3-78856F6BCC06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6553F7-7270-4397-9FC3-78856F6BCC06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6553F7-7270-4397-9FC3-78856F6BCC06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D23DF537-3B78-4D8D-85B9-E30BDE909991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D23DF537-3B78-4D8D-85B9-E30BDE909991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D23DF537-3B78-4D8D-85B9-E30BDE909991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D23DF537-3B78-4D8D-85B9-E30BDE909991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
