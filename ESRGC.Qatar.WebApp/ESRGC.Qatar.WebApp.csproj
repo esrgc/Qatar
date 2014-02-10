@@ -223,8 +223,8 @@
     <Content Include="Client\jsLib\typeahead.js\typeahead.min.js" />
     <Content Include="Client\jsLib\wicket-leaflet\wicket-leaflet.js" />
     <Content Include="Client\jsLib\wicket-leaflet\wicket.js" />
-    <Content Include="Client\js\apps\routing\app.js" />
-    <Content Include="Client\js\apps\routing\controller\map.js" />
+    <Content Include="Client\js\apps\qatar\app.js" />
+    <Content Include="Client\js\apps\qatar\controller\map.js" />
     <Content Include="Client\js\bootstrapValidation.js" />
     <Content Include="Client\js\dx\dx.min.js" />
     <Content Include="Client\js\dx\map\leafletViewer.js" />
@@ -246,9 +246,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Client\js\apps\routing\model\" />
-    <Folder Include="Client\js\apps\routing\store\" />
-    <Folder Include="Client\js\apps\routing\view\" />
+    <Folder Include="Client\js\apps\qatar\model\" />
+    <Folder Include="Client\js\apps\qatar\store\" />
+    <Folder Include="Client\js\apps\qatar\view\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

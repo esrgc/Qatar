@@ -38,11 +38,11 @@ namespace ESRGC.Qatar.WebApp
       //              "~/Content/themes/base/jquery.ui.progressbar.css",
       //              "~/Content/themes/base/jquery.ui.theme.css"));
       bundles.Add(new ScriptBundle("~/bundles/apps/routing").Include(
-          "~/Client/js/apps/routing/controller/*.js",
-          "~/Client/js/apps/routing/store/*.js",
+          "~/Client/js/apps/qatar/controller/*.js",
+          "~/Client/js/apps/qatar/store/*.js",
           //"~/Client/apps/search/model/*.js",
           //"~/Client/apps/search/view/*.js",
-          "~/Client/js/apps/routing/app.js"
+          "~/Client/js/apps/qatar/app.js"
         ));
     }
   }
