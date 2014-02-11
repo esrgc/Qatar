@@ -1,0 +1,97 @@
+Begin route Texas A&M University at Qatar - Doha International Airport Departure Terminal
+
+1: Start at Texas A&M University at Qatar
+
+2: Go south
+Drive < 0.1 mi
+
+3: Bear right
+Drive 0.3 mi
+
+4: Turn right and immediately turn left
+Drive 0.5 mi
+
+5: Continue on Al Luqta
+Drive 0.5 mi
+
+6: Turn right to stay on Al Luqta
+Drive 0.4 mi
+
+7: Bear right on Shaqab Roundabout
+Drive < 0.1 mi
+
+8: Bear right on Huwar Street
+Drive 1.1 mi
+
+9: Bear right on Old Al Rayyan Roundabout
+Drive < 0.1 mi
+
+10: Bear right
+Drive 1.1 mi
+
+11: Turn right
+Drive 0.8 mi
+
+12: Continue on Al Rayyan Road
+Drive 2.5 mi
+
+13: Continue on Gulf Interchange
+Drive < 0.1 mi
+
+14: Turn right on Gulf Interchange and immediately turn right on Gulf Interchange
+Drive < 0.1 mi
+
+15: Bear left to stay on Gulf Interchange
+Drive < 0.1 mi
+
+16: Bear right on Al Rayyan Road
+Drive 0.4 mi
+
+17: Continue
+Drive < 0.1 mi
+
+18: Bear right at Al Diwan Street
+Drive < 0.1 mi
+
+19: Continue on Al Diwan Street
+Drive 0.1 mi
+
+20: Turn left at Palestine Street to stay on Al Diwan Street
+Drive 0.4 mi
+
+21: Continue on Ahmed Bin Mohammed Bin Thani Street
+Drive 0.3 mi
+
+22: Bear right at Rawdat Al Khail Street to stay on Ahmed Bin Mohammed Bin Thani Street
+Drive 0.4 mi
+
+23: Continue
+Drive < 0.1 mi
+
+24: Continue on Al Matar Street
+Drive 1.2 mi
+
+25: Continue to stay on Al Matar Street
+Drive < 0.1 mi
+
+26: Make sharp right on Al Matar Street and immediately turn right on Al Matar Street
+Drive < 0.1 mi
+
+27: Make sharp right on Al Matar Street and immediately make sharp right on Al Matar Street
+Drive < 0.1 mi
+
+28: Make sharp right on Al Matar Street and immediately make sharp right on Al Matar Street
+Drive 0.3 mi
+
+29: Continue to stay on Al Matar Street
+Drive 0.2 mi
+
+30: Turn left
+Drive 0.3 mi
+
+31: Finish at Doha International Airport Departure Terminal, on the left
+
+Driving distance: 11 mi
+
+End of route Texas A&M University at Qatar - Doha International Airport Departure Terminal
+
