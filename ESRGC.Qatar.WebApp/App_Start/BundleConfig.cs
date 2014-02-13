@@ -45,7 +45,8 @@ namespace ESRGC.Qatar.WebApp
           "~/Client/js/apps/qatar/store/*.js",
           //"~/Client/apps/search/model/*.js",
           //"~/Client/apps/search/view/*.js",
-          "~/Client/js/apps/qatar/app.js"
+          "~/Client/js/apps/qatar/app.js",
+          "~/Client/jsLib/xml2Json/xmlToJson.js"
         ));
     }
   }

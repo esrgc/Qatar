@@ -124,7 +124,7 @@ dx.map.LeafletViewer = dx.define({
             this.map.fitBounds(bounds);
     },
     zoomToPoint: function(point, zoom) {
-        var z = zoom || 10;//default zoom
+        var z = zoom || this.getMaxZoom();//default zoom
         if (typeof point.x != 'undefined' && typeof point.y != 'undefined') {
             var latlng = new L.LatLng(point.x, point.y);
             this.map.setView(latlng, z);

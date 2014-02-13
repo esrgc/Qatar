@@ -12,7 +12,7 @@ dx library
 
 dx.application({
     name: 'Qatar',
-    stores: ['Routes'],
+    stores: ['Routes', 'Directions'],
     models: [],
     views: [],
     controllers: ['Map'],

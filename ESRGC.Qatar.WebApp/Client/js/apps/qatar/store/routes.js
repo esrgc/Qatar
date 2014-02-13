@@ -9,5 +9,6 @@ store for retrieving geojson routes
 */
 
 dx.defineStore('Routes', {
-    url: '/client/data/routes/'
+    url: '/client/data/routes/',
+    type: 'geojson'
 })
