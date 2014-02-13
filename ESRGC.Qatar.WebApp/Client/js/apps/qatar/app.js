@@ -12,11 +12,11 @@ dx library
 
 dx.application({
     name: 'Qatar',
-    stores: [],
+    stores: ['Routes'],
     models: [],
     views: [],
     controllers: ['Map'],
-    launch: function () {
+    launch: function() {
         dx.log('App launch function run!')
     }
 

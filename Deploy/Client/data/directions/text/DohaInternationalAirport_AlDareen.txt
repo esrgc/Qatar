@@ -1,0 +1,58 @@
+Begin route Doha International Airport Departure Terminal - Al Dareen
+
+1: Start at Doha International Airport Departure Terminal
+
+2: Go southwest
+Drive 0.5 mi
+
+3: Continue on Al Matar Street
+Drive 1.7 mi
+
+4: Continue on Grand Hamad Street
+Drive 0.8 mi
+
+5: Bear left to stay on Grand Hamad Street
+Drive < 0.1 mi
+
+6: Bear left on Al Corniche Street
+Drive 0.3 mi
+
+7: Continue on Al Diwan Roundabout
+Drive < 0.1 mi
+
+8: Continue on Al Corniche Street
+Drive 1.2 mi
+
+9: Continue on National Theater Roundabout
+Drive < 0.1 mi
+
+10: Bear right on Al Corniche Street
+Drive 0.5 mi
+
+11: Continue
+Drive < 0.1 mi
+
+12: Continue on Al Markhiya Street
+Drive 0.2 mi
+
+13: Continue at Al Bidda Street to stay on Al Markhiya Street
+Drive 0.5 mi
+
+14: Bear right on Onaiza Roundabout
+Drive < 0.1 mi
+
+15: Bear right on Onaiza Street
+Drive 0.2 mi
+
+16: Continue on Al Sham Street
+Drive 0.4 mi
+
+17: Bear right to stay on Al Sham Street
+Drive 0.2 mi
+
+18: Finish at Al Dareen
+
+Driving distance: 6.5 mi
+
+End of route Doha International Airport Departure Terminal - Al Dareen
+
