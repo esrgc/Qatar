@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.Tests", "ESRGC.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.Domain", "ESRGC.Qatar.Domain\ESRGC.Qatar.Domain.csproj", "{7331F168-2C9B-413E-A1AC-851D2D76F240}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.WebApp-Routes", "ESRGC.Qatar.WebApp-Routes\ESRGC.Qatar.WebApp-Routes.csproj", "{A3C5341C-E8AA-4557-BA5A-90F22DFD3FFC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7331F168-2C9B-413E-A1AC-851D2D76F240}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C5341C-E8AA-4557-BA5A-90F22DFD3FFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C5341C-E8AA-4557-BA5A-90F22DFD3FFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C5341C-E8AA-4557-BA5A-90F22DFD3FFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C5341C-E8AA-4557-BA5A-90F22DFD3FFC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

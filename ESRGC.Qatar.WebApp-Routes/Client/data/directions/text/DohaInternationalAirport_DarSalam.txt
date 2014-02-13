@@ -1,0 +1,49 @@
+Begin route Doha International Airport Departure Terminal - Dar Salam
+
+1: Start at Doha International Airport Departure Terminal
+
+2: Go south
+Drive 0.5 mi
+
+3: Continue on D Ring Road
+Drive 2.2 mi
+
+4: Turn right on D Ring Road and immediately turn left on D Ring Road
+Drive < 0.1 mi
+
+5: Bear right to stay on D Ring Road
+Drive 0.6 mi
+
+6: Continue
+Drive 1 mi
+
+7: Turn left on Haloul Street
+Drive 0.9 mi
+
+8: Continue
+Drive < 0.1 mi
+
+9: Continue on Mesaimeer Road
+Drive 0.5 mi
+
+10: Bear right
+Drive 0.1 mi
+
+11: Make sharp left and immediately turn right
+Drive < 0.1 mi
+
+12: Turn left
+Drive < 0.1 mi
+
+13: Turn left
+Drive 0.1 mi
+
+14: Turn right
+Drive < 0.1 mi
+
+15: Finish at Dar Salam
+
+Driving distance: 6.2 mi
+
+End of route Doha International Airport Departure Terminal - Dar Salam
+

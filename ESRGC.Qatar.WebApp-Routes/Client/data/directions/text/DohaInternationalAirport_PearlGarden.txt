@@ -1,0 +1,49 @@
+Begin route Doha International Airport Departure Terminal - Pearl Garden Compound
+
+1: Start at Doha International Airport Departure Terminal
+
+2: Go south
+Drive 0.5 mi
+
+3: Continue on D Ring Road
+Drive 1.5 mi
+
+4: Bear right
+Drive < 0.1 mi
+
+5: Continue on Najma Street
+Drive 0.2 mi
+
+6: Bear right
+Drive < 0.1 mi
+
+7: Turn right
+Drive 0.2 mi
+
+8: Make sharp left on Bilal Bin Rabah Street
+Drive 0.1 mi
+
+9: Turn right on Kaab Bin Malik Street
+Drive 0.3 mi
+
+10: Turn left
+Drive < 0.1 mi
+
+11: Bear right
+Drive < 0.1 mi
+
+12: Continue on Ahmed Bin Zaidoun Street
+Drive 0.2 mi
+
+13: Turn left
+Drive 0.4 mi
+
+14: Turn left
+Drive < 0.1 mi
+
+15: Finish at Pearl Garden Compound
+
+Driving distance: 3.7 mi
+
+End of route Doha International Airport Departure Terminal - Pearl Garden Compound
+

@@ -1,0 +1,221 @@
+<?xml version="1.0"?><NA:DIRECTIONS version="1.0" xmlns:NA="http://www.esri.com/arcgis/directions" xmlns="http://www.esri.com/arcgis/directions">
+  <ROUTE id="65" name="Dar Salam - Doha International Airport Departure Terminal">
+    <PATH id="1" fromStop="Dar Salam" toStop="Doha International Airport Departure Terminal">
+      <DIRECTION id="1" distance="0.000000" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="depart">
+        <ENVELOPE minx="51.489390" miny="25.244970" maxx="51.489390" maxy="25.244970"/>
+        <POINT name="maneuver" x="51.489390" y="25.244970"/>
+        <STRINGS>
+          <STRING style="depart" text="Start at Dar Salam"/>
+          <STRING style="Cumul_length" text="0 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="2" distance="0.072425" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="141.930111" maneuvertype="straight">
+        <ENVELOPE minx="51.489390" miny="25.244113" maxx="51.490061" maxy="25.244970"/>
+        <POINT name="maneuver" x="51.489390" y="25.244970"/>
+        <STRINGS>
+          <STRING style="normal" text="Go southeast"/>
+          <STRING style="Cumul_length" text="0 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="3" distance="0.106621" cumul_length="0.072425" time="0.000000" drivetime="0.000000" turn_angle="274.251760" depart_bearing="56.181872" general_bearing="56.181354" maneuvertype="turn_left">
+        <ENVELOPE minx="51.490061" miny="25.244113" maxx="51.491432" maxy="25.245032"/>
+        <POINT name="maneuver" x="51.490061" y="25.244113"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left"/>
+          <STRING style="Cumul_length" text="0.1 mi"/>
+          <STRING style="summary" text="Drive 0.1 mi"/>
+          <STRING style="length" text="0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="4" distance="0.060427" cumul_length="0.179046" time="0.000000" drivetime="0.000000" turn_angle="87.345210" depart_bearing="143.525783" general_bearing="143.932455" maneuvertype="turn_right">
+        <ENVELOPE minx="51.491432" miny="25.244300" maxx="51.491965" maxy="25.245032"/>
+        <POINT name="maneuver" x="51.491432" y="25.245032"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right"/>
+          <STRING style="Cumul_length" text="0.2 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="5" distance="0.141685" cumul_length="0.239473" time="0.000000" drivetime="0.000000" turn_angle="93.508300" depart_bearing="236.492023" general_bearing="236.492023" maneuvertype="turn_right">
+        <ENVELOPE minx="51.490141" miny="25.243092" maxx="51.491965" maxy="25.244300"/>
+        <POINT name="maneuver" x="51.491965" y="25.244300"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right"/>
+          <STRING style="Cumul_length" text="0.2 mi"/>
+          <STRING style="summary" text="Drive 0.1 mi"/>
+          <STRING style="length" text="0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="6" distance="0.095606" cumul_length="0.381158" time="0.000000" drivetime="0.000000" turn_angle="359.626051" depart_bearing="236.118074" general_bearing="236.118074" maneuvertype="straight">
+        <ENVELOPE minx="51.488915" miny="25.242268" maxx="51.490141" maxy="25.243092"/>
+        <POINT name="maneuver" x="51.490141" y="25.243092"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="0.4 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="7" distance="0.592643" cumul_length="0.476765" time="0.000000" drivetime="0.000000" turn_angle="84.605501" depart_bearing="320.723574" general_bearing="322.518331" maneuvertype="turn_right">
+        <ENVELOPE minx="51.483484" miny="25.242268" maxx="51.488915" maxy="25.249324"/>
+        <POINT name="maneuver" x="51.488915" y="25.242268"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right"/>
+          <STRING style="Cumul_length" text="0.5 mi"/>
+          <STRING style="summary" text="Drive 0.6 mi"/>
+          <STRING style="length" text="0.6 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="8" distance="1.069574" cumul_length="1.069408" time="0.000000" drivetime="0.000000" turn_angle="46.685671" depart_bearing="59.186022" general_bearing="59.197327" maneuvertype="turn_right">
+        <ENVELOPE minx="51.483505" miny="25.249324" maxx="51.497650" maxy="25.257757"/>
+        <POINT name="maneuver" x="51.483505" y="25.249324"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right on Haloul Street"/>
+          <STRING style="Cumul_length" text="1.1 mi"/>
+          <STRING style="summary" text="Drive 1.1 mi"/>
+          <STRING style="length" text="1.1 mi"/>
+          <STRING style="street_name" text="Haloul Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="9" distance="0.170335" cumul_length="2.138982" time="0.000000" drivetime="0.000000" turn_angle="57.536246" depart_bearing="57.536246" general_bearing="58.410043" maneuvertype="turn_right_right">
+        <ENVELOPE minx="51.497650" miny="25.257757" maxx="51.499905" maxy="25.259144"/>
+        <POINT name="maneuver" x="51.497650" y="25.257757"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right on Haloul Street and immediately turn right on Haloul Street"/>
+          <STRING style="Cumul_length" text="2.1 mi"/>
+          <STRING style="summary" text="Drive 0.2 mi"/>
+          <STRING style="length" text="0.2 mi"/>
+          <STRING style="street_name" text="Haloul Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="10" distance="0.021102" cumul_length="2.309317" time="0.000000" drivetime="0.000000" turn_angle="23.072056" depart_bearing="80.806783" general_bearing="92.962406" maneuvertype="bear_right">
+        <ENVELOPE minx="51.499905" miny="25.259127" maxx="51.500235" maxy="25.259165"/>
+        <POINT name="maneuver" x="51.499905" y="25.259144"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right"/>
+          <STRING style="Cumul_length" text="2.3 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="11" distance="0.600775" cumul_length="2.330419" time="0.000000" drivetime="0.000000" turn_angle="31.961079" depart_bearing="136.117640" general_bearing="121.807757" maneuvertype="bear_right">
+        <ENVELOPE minx="51.500235" miny="25.254310" maxx="51.508000" maxy="25.259127"/>
+        <POINT name="maneuver" x="51.500235" y="25.259127"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on D Ring Road"/>
+          <STRING style="Cumul_length" text="2.3 mi"/>
+          <STRING style="summary" text="Drive 0.6 mi"/>
+          <STRING style="length" text="0.6 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="12" distance="0.383677" cumul_length="2.931194" time="0.000000" drivetime="0.000000" turn_angle="353.305036" depart_bearing="95.145147" general_bearing="90.070724" maneuvertype="straight">
+        <ENVELOPE minx="51.508000" miny="25.254218" maxx="51.514122" maxy="25.254310"/>
+        <POINT name="maneuver" x="51.508000" y="25.254310"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="2.9 mi"/>
+          <STRING style="summary" text="Drive 0.4 mi"/>
+          <STRING style="length" text="0.4 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="13" distance="0.615425" cumul_length="3.314871" time="0.000000" drivetime="0.000000" turn_angle="7.145907" depart_bearing="90.559107" general_bearing="90.597691" maneuvertype="straight">
+        <ENVELOPE minx="51.514122" miny="25.254200" maxx="51.523943" maxy="25.254303"/>
+        <POINT name="maneuver" x="51.514122" y="25.254303"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on D Ring Road"/>
+          <STRING style="Cumul_length" text="3.3 mi"/>
+          <STRING style="summary" text="Drive 0.6 mi"/>
+          <STRING style="length" text="0.6 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="14" distance="0.054195" cumul_length="3.930296" time="0.000000" drivetime="0.000000" turn_angle="74.866315" depart_bearing="176.423033" general_bearing="92.569920" maneuvertype="turn_right">
+        <ENVELOPE minx="51.523943" miny="25.253989" maxx="51.524607" maxy="25.254200"/>
+        <POINT name="maneuver" x="51.523943" y="25.254200"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right to stay on D Ring Road"/>
+          <STRING style="Cumul_length" text="3.9 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="15" distance="0.716900" cumul_length="3.984491" time="0.000000" drivetime="0.000000" turn_angle="48.042975" depart_bearing="81.733042" general_bearing="89.884882" maneuvertype="turn_right">
+        <ENVELOPE minx="51.524607" miny="25.254171" maxx="51.536052" maxy="25.254260"/>
+        <POINT name="maneuver" x="51.524607" y="25.254171"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right to stay on D Ring Road"/>
+          <STRING style="Cumul_length" text="4 mi"/>
+          <STRING style="summary" text="Drive 0.7 mi"/>
+          <STRING style="length" text="0.7 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="16" distance="0.041787" cumul_length="4.701391" time="0.000000" drivetime="0.000000" turn_angle="71.173916" depart_bearing="161.369954" general_bearing="116.620179" maneuvertype="turn_right">
+        <ENVELOPE minx="51.536052" miny="25.253934" maxx="51.536560" maxy="25.254194"/>
+        <POINT name="maneuver" x="51.536052" y="25.254194"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right to stay on D Ring Road"/>
+          <STRING style="Cumul_length" text="4.7 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="17" distance="1.044119" cumul_length="4.743178" time="0.000000" drivetime="0.000000" turn_angle="307.342458" depart_bearing="37.158443" general_bearing="74.318960" maneuvertype="turn_left_right">
+        <ENVELOPE minx="51.536560" miny="25.253939" maxx="51.551976" maxy="25.258267"/>
+        <POINT name="maneuver" x="51.536560" y="25.253939"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left on D Ring Road and immediately turn right on D Ring Road"/>
+          <STRING style="Cumul_length" text="4.7 mi"/>
+          <STRING style="summary" text="Drive 1 mi"/>
+          <STRING style="length" text="1 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+          <STRING style="intersected_road_name" text="Najma Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="18" distance="0.458870" cumul_length="5.787297" time="0.000000" drivetime="0.000000" turn_angle="355.093883" depart_bearing="51.165228" general_bearing="42.751152" maneuvertype="straight">
+        <ENVELOPE minx="51.551976" miny="25.258267" maxx="51.556734" maxy="25.263414"/>
+        <POINT name="maneuver" x="51.551976" y="25.258267"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue to stay on D Ring Road"/>
+          <STRING style="Cumul_length" text="5.8 mi"/>
+          <STRING style="summary" text="Drive 0.5 mi"/>
+          <STRING style="length" text="0.5 mi"/>
+          <STRING style="street_name" text="D Ring Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="19" distance="0.345447" cumul_length="6.246167" time="0.000000" drivetime="0.000000" turn_angle="357.701937" depart_bearing="25.182288" general_bearing="14.883480" maneuvertype="straight">
+        <ENVELOPE minx="51.556734" miny="25.263414" maxx="51.558330" maxy="25.267774"/>
+        <POINT name="maneuver" x="51.556734" y="25.263414"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="6.2 mi"/>
+          <STRING style="summary" text="Drive 0.3 mi"/>
+          <STRING style="length" text="0.3 mi"/>
+          <STRING style="intersected_road_name" text="Al Matar Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="20" distance="0.000000" cumul_length="6.591614" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="stop">
+        <ENVELOPE minx="51.557893" miny="25.267774" maxx="51.557893" maxy="25.267774"/>
+        <POINT name="maneuver" x="51.557893" y="25.267774"/>
+        <STRINGS>
+          <STRING style="arrive" text="Finish at Doha International Airport Departure Terminal, on the left"/>
+          <STRING style="Cumul_length" text="6.6 mi"/>
+        </STRINGS>
+      </DIRECTION>
+    </PATH>
+    <DIRECTION id="summary" distance="6.591614" cumul_length="6.591614" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="unknown">
+      <ENVELOPE minx="51.483484" miny="25.242268" maxx="51.558330" maxy="25.267774"/>
+      <STRINGS>
+        <STRING style="summary" text="Driving distance: 6.6 mi"/>
+        <STRING style="length" text="6.6 mi"/>
+        <STRING style="Cumul_length" text="6.6 mi"/>
+      </STRINGS>
+    </DIRECTION>
+  </ROUTE>
+</NA:DIRECTIONS>
