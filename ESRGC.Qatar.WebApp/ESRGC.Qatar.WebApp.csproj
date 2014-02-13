@@ -13,13 +13,14 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>ESRGC.Qatar.WebApp</RootNamespace>
     <AssemblyName>ESRGC.Qatar.WebApp</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -39,29 +40,36 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net40\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\packages\EntityFramework.6.0.2\lib\net40\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Net.Http.2.0.20710.0\lib\net40\System.Net.Http.WebRequest.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Web" />
     <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Web.Abstractions" />
     <Reference Include="System.Web.Routing" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
-    <Reference Include="EntityFramework">
-      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
-    </Reference>
     <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
@@ -73,12 +81,8 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.4.5.11\lib\net40\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="System.Net.Http">
-    </Reference>
     <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Net.Http.WebRequest">
     </Reference>
     <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
@@ -112,6 +116,7 @@
       <Private>True</Private>
       <HintPath>..\packages\Microsoft.AspNet.WebPages.2.0.20710.0\lib\net40\System.Web.WebPages.Razor.dll</HintPath>
     </Reference>
+    <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>..\packages\WebGrease.1.3.0\lib\WebGrease.dll</HintPath>
@@ -149,309 +154,6 @@
     <Content Include="Client\css\less\site.min.css">
       <DependentUpon>site.less</DependentUpon>
     </Content>
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport.html" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_21.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_22.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_23.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_24.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_25.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_26.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_27.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\AlDareen_DohaInternationalAirport_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport.html" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_21.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_22.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_23.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\DarSalam_DohaInternationalAirport_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen.html" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_21.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_22.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_23.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_24.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_AlDareen_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam.html" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_DarSalam_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden.html" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_PearlGarden_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ.html" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_21.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_22.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_23.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_24.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_25.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_26.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_27.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_28.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_29.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_30.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\DohaInternationalAirport_TAMUQ_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ.html" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\FamilyFoodCenter_TAMUQ_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport.html" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_DohaInternationalAirport_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy.html" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_21.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_22.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_23.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_24.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\PearlGarden_USEmbassy_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport.html" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_21.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_22.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_23.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_24.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_25.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_26.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_27.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_28.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_29.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_30.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_31.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_32.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_DohaInternationalAirport_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter.html" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_FamilyFoodCenter_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy.html" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\TAMUQ_USEmbassy_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden.html" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_PearlGarden_files\Route_1.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ.html" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_1.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_10.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_11.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_12.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_13.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_14.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_15.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_16.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_17.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_18.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_19.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_2.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_20.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_3.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_4.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_5.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_6.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_7.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_8.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Map_1_9.jpg" />
-    <Content Include="Client\data\directions\html\USEmbassy_TAMUQ_files\Route_1.jpg" />
     <Content Include="Client\data\directions\text\AlDareen_DohaInternationalAirport.txt" />
     <Content Include="Client\data\directions\text\DarSalam_DohaInternationalAirport.txt" />
     <Content Include="Client\data\directions\text\DohaInternationalAirport_AlDareen.txt" />
@@ -628,6 +330,9 @@
     <Content Include="Client\jsLib\jqueryValidate\jquery.validate.unobtrusive.min.js.map" />
     <Content Include="Client\jsLib\leaflet.awesome-markers\leaflet.awesome-markers.min.js.map" />
   </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
@@ -644,7 +349,7 @@
         <WebProjectProperties>
           <UseIIS>True</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerPort>5820</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:1426/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>

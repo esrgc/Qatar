@@ -63,7 +63,7 @@ dx.defineController('Map', {
             dx.log('Error retrieving route store');
             return;
         }
-        var url = routeStore.url + '/' + route + '.' + routeStore.type;
+        var url = routeStore.url + route + '.' + routeStore.type;
         //load geojson route geometry
         routeStore.loadContentUrl(url);
 

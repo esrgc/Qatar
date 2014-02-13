@@ -1,5 +1,8 @@
 .map {
   position: relative;
+  margin-bottom: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
 }
 .map .overlay {
   position: absolute;

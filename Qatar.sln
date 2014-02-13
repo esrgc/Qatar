@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.WebApp", "ESRGC.Qatar.WebApp\ESRGC.Qatar.WebApp.csproj", "{DA6553F7-7270-4397-9FC3-78856F6BCC06}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7331F168-2C9B-413E-A1AC-851D2D76F240} = {7331F168-2C9B-413E-A1AC-851D2D76F240}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ESRGC.Qatar.Tests", "ESRGC.Qatar.Tests\ESRGC.Qatar.Tests.csproj", "{D23DF537-3B78-4D8D-85B9-E30BDE909991}"
 EndProject

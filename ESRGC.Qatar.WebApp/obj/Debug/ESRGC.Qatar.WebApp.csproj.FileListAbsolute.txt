@@ -33,10 +33,13 @@ D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\ESRGC.Qatar.WebApp.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\ESRGC.Qatar.WebApp.pdb
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\Antlr3.Runtime.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\EntityFramework.dll
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\EntityFramework.SqlServer.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\Microsoft.Web.Infrastructure.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\Newtonsoft.Json.dll
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Net.Http.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Net.Http.Formatting.dll
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Net.Http.WebRequest.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.Http.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.Http.WebHost.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.Mvc.dll
@@ -48,6 +51,9 @@ D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.WebPages.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.WebPages.Razor.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\WebGrease.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\EntityFramework.xml
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\EntityFramework.SqlServer.xml
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Net.Http.xml
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Net.Http.WebRequest.xml
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\Newtonsoft.Json.xml
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Net.Http.Formatting.xml
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.Http.xml
@@ -57,6 +63,6 @@ D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.Razor.xml
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.WebPages.xml
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.WebPages.Deployment.xml
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\bin\System.Web.WebPages.Razor.xml
-D:\Projects\Qatar\ESRGC.Qatar.WebApp\obj\Debug\ESRGC.Qatar.WebApp.csprojResolveAssemblyReference.cache
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\obj\Debug\ESRGC.Qatar.WebApp.dll
 D:\Projects\Qatar\ESRGC.Qatar.WebApp\obj\Debug\ESRGC.Qatar.WebApp.pdb
+D:\Projects\Qatar\ESRGC.Qatar.WebApp\obj\Debug\ESRGC.Qatar.WebApp.csprojResolveAssemblyReference.cache

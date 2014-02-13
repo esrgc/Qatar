@@ -20,11 +20,26 @@
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">Routes</label>
+                            <label class="col-sm-2 control-label">From - To</label>
                             <div class="col-sm-8">
-                                <select class="form-control col-sm-9">
-                                    <option>Doha airport</option>
-                                    <option>Doha international</option>
+                                <select class="form-control col-sm-9" id="routeList">
+                                    <option value="none">-Destinations-</option>
+                                    <option value="USEmbassy_TAMUQ">United Stated Embassy - Texas A&M University at Qatar</option>
+                                    <option value="USEmbassy_PearlGarden">United States Embassy - Pearl Garden Compound</option>
+                                    <option value="TAMUQ_USEmbassy">Texas A&M University at Qatar - United States Embassy</option>
+                                    <option value="TAMUQ_FamilyFoodCenter">Texas A&M University at Qatar - Family Food Center</option>
+                                    <option value="TAMUQ_DohaInternationalAirport">Texas A&M University at Qatar - Doha International Airport
+                                        Departure Terminal</option>
+                                    <option value="PearlGarden_USEmbassy">Pearl Garden Compound - United States Embassy</option>
+                                    <option value="PearlGarden_DohaInternationalAirport">Pearl Garden Compound - Doha International Airport
+                                        Departure Terminal</option>
+                                    <option value="FamilyFoodCenter_TAMUQ">Family Food Center - Texas A&M University at Qatar</option>
+                                    <option value="DohaInternationalAirport_TAMUQ">Doha International Airport - Texas A&M University at Qatar</option>
+                                    <option value="DohaInternationalAirport_PearlGarden">Doha International Airport - Pearl Garden Compound</option>
+                                    <option value="DohaInternationalAirport_DarSalam">Doha International Airport - Dar Salam</option>
+                                    <option value="DohaInternationalAirport_AlDareen">Doha International Airport - Al Dareen</option>
+                                    <option value="DarSalam_DohaInternationalAirport">Dar Salam - Doha International Airport Departure Terminal</option>
+                                    <option value="AlDareen_DohaInternationalAirport">Al Dareen - Doha International Airport Departure Terminal</option>
                                 </select>
                             </div>
                         </div>
@@ -36,18 +51,16 @@
                                 <div class="overlay"></div>
                             </div>
                         </div>
-                        <div class="col-sm-4" id="direction-container">
-                            <ul class="list-group">
-                                <li class="list-group-item">
-                                    direction 1
-                                </li>
-                                <li class="list-group-item">
-                                    direction 2
-                                </li>
-                                <li class="list-group-item">
-                                    direction 2
-                                </li>
-                            </ul>
+                        <div class="col-sm-4">
+                            <div class="post" id="directionContainer">
+                                <h4>Overview</h4>
+                                <p id="directionSummary">
+                                    <small>Please select routes.</small>
+                                </p>
+                                <div class="list-group" id="directionList">
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
