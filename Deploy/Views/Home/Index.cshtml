@@ -12,6 +12,9 @@
     </header>
 }
 
+@{
+    var resourceUrl = Url.Content("~/client/data/");    
+}
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -22,7 +25,7 @@
                         <div class="form-group">
                             <label class="col-sm-2 control-label">From - To</label>
                             <div class="col-sm-8">
-                                <select class="form-control col-sm-9" id="routeList">
+                                <select class="form-control col-sm-9" id="routeList" data-url="@resourceUrl">
                                     <option value="none">-Destinations-</option>
                                     <option value="USEmbassy_TAMUQ">United Stated Embassy - Texas A&M University at Qatar</option>
                                     <option value="USEmbassy_PearlGarden">United States Embassy - Pearl Garden Compound</option>

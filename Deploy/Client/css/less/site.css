@@ -202,12 +202,12 @@ html {
   overflow-y: auto;
 }
 #directionContainer {
-  margin-top: 10px;
-  max-height: 540px;
+  max-height: 550px;
   /*min-height: 550px;*/
 
 }
 .map {
+  margin-bottom: 10px;
   width: 100%;
   height: 550px;
 }

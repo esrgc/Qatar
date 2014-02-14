@@ -37,7 +37,7 @@ dx.defineController('Map', {
         var app = dx.getApp();
         //initialize the map viewer
         app.appData.mapViewer = new dx.map.LeafletViewer({
-            center: new L.LatLng(25.280468, 51.522312),
+            center: new L.LatLng(25.280468, 51.522312),//Qatar coordinates
             zoomLevel: 9
         });
         app.getMapViewer = function() {
@@ -63,7 +63,8 @@ dx.defineController('Map', {
             dx.log('Error retrieving route store');
             return;
         }
-        var url = routeStore.url + route + '.' + routeStore.type;
+        var resourceUrl = $(object).attr('data-url');
+        var url = resourceUrl + routeStore.url + '/' + route + '.' + routeStore.type;
         //load geojson route geometry
         routeStore.loadContentUrl(url);
 
@@ -73,7 +74,7 @@ dx.defineController('Map', {
             dx.log('Error retrieving direction store');
             return;
         }
-        var url = directionStore.url + directionStore.type + '/' + route + '.' + directionStore.type;
+        var url = resourceUrl + directionStore.url + '/' + directionStore.type + '/' + route + '.' + directionStore.type;
         directionStore.loadContentUrl(url);
     },
     //store event
@@ -138,16 +139,18 @@ dx.defineController('Map', {
                 }
             }
             var html = [
-                '<small>',
-                    '<strong>',
-                        dirTextSum,
-                    '</strong>',
-                '<small>',
-                '<br/>',
-                '<small>',
-                    distance,
-                '</small>',
-                '<br/>',
+                '<div>',
+                    '<small>',
+                        '<strong>',
+                            dirTextSum,
+                        '</strong>',
+                    '<small>',
+                '</div>',
+                '<div>',
+                    '<small>',
+                        distance,
+                    '</small>',
+                '</div>',
                 '<small>',
                     '<strong>',
                         'Distance traveled: ',

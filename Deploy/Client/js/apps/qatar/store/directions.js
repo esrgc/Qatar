@@ -9,6 +9,6 @@ store for retrieving xml or json direction data
 */
 
 dx.defineStore('Directions', {
-    url: 'client/data/directions/',
+    url: 'directions',
     type: 'xml'
 })
