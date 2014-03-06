@@ -105,12 +105,6 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ESRGC.Qatar.WebApp\ESRGC.Qatar.WebApp.csproj">
-      <Project>{DA6553F7-7270-4397-9FC3-78856F6BCC06}</Project>
-      <Name>ESRGC.Qatar.WebApp</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

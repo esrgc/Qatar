@@ -1,0 +1,47 @@
+﻿@{
+    ViewBag.Title = "Residence Locator";
+}
+@section headContent{
+    <link href="~/Client/jsLib/leaflet-0.7.2/leaflet.css" rel="stylesheet" />
+    <link href="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.css" rel="stylesheet" />
+    <link href="~/Client/css/less/map.min.css" rel="stylesheet" />
+}
+@section header{
+    <header class="header-content">
+        <h2>Qatar Routing Map</h2>
+    </header>
+}
+
+@{
+    var resourceUrl = Url.Content("~/client/data/");    
+}
+
+@*<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <div></div>
+        </div>
+    </div>
+</div>*@
+<div class="full-screen" id="map" data-resourceUrl="@Url.Content("~/Client/data")"></div>
+
+@section footerContent {
+ <div class="text-center">
+    <img src="~/Client/images/esrgc.png" alt="" />
+ </div>    
+}
+
+@section scripts{
+    <script src="~/Client/jsLib/knockoutjs/knockout-3.0.0.js"></script>
+    <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
+    <script src="~/Client/jsLib/leaflet-0.7.2/leaflet.js"></script>
+    <script src="~/Client/jsLib/esri-leaflet/esri-leaflet.js"></script>
+    <script src="~/Client/jsLib/wicket-leaflet/wicket-leaflet.js"></script>
+    <script src="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
+    <script src="~/Client/js/dx/dx.min.js"></script>
+    <script src="~/Client/js/dx/map/mapViewer.js"></script>
+    <script src="~/Client/js/dx/map/leafletViewer.js"></script>
+    <script src="~/Client/js/apps/residenceLocator/store/facility.js"></script>
+    <script src="~/Client/js/apps/residenceLocator/controller/map.js"></script>
+    <script src="~/Client/js/apps/residenceLocator/app.js"></script>
+}

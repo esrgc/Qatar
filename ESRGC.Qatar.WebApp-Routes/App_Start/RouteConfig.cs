@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace ESRGC.Qatar.WebApp_Routes
+namespace ESRGC.Qatar.WebApp
 {
   public class RouteConfig
   {

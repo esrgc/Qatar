@@ -32,7 +32,6 @@ D:\Projects\Qatar\Qatar\ESRGC.Qatar.Tests\obj\Debug\ESRGC.Qatar.Tests.pdb
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\ESRGC.Qatar.Tests.dll.config
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\ESRGC.Qatar.Tests.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\ESRGC.Qatar.Tests.pdb
-D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\ESRGC.Qatar.WebApp.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\Microsoft.Web.Infrastructure.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\Microsoft.Web.Mvc.FixedDisplayModes.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\Newtonsoft.Json.dll
@@ -45,8 +44,6 @@ D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Web.Razor.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Web.WebPages.Deployment.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Web.WebPages.dll
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Web.WebPages.Razor.dll
-D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Web.Optimization.dll
-D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\ESRGC.Qatar.WebApp.pdb
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\Newtonsoft.Json.xml
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Net.Http.Formatting.xml
 D:\Projects\Qatar\ESRGC.Qatar.Tests\bin\Debug\System.Web.Helpers.xml

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace ESRGC.Qatar.WebApp_Routes
+namespace ESRGC.Qatar.WebApp
 {
   public class BundleConfig
   {

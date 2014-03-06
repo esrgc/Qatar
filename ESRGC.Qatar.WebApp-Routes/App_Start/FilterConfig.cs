@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace ESRGC.Qatar.WebApp_Routes
+namespace ESRGC.Qatar.WebApp
 {
   public class FilterConfig
   {

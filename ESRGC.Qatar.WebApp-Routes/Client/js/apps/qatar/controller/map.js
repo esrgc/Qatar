@@ -2,12 +2,12 @@
 Author: Tu hoang
 ESRGC 2014
 
-QATAR
+QATAR routing
 
 Map controller
 map.js
 
-controller for profile searching by tags
+controller for routing map
 
 Dependencies
 dx library
@@ -63,7 +63,7 @@ dx.defineController('Map', {
             dx.log('Error retrieving route store');
             return;
         }
-        var resourceUrl = $(object).attr('data-url');
+        var resourceUrl = $(object).attr('data-url');//get resources path
         var url = resourceUrl + routeStore.url + '/' + route + '.' + routeStore.type;
         //load geojson route geometry
         routeStore.loadContentUrl(url);
@@ -167,7 +167,7 @@ dx.defineController('Map', {
         $(obj).addClass('active');
         var x = $(obj).attr('data-x');
         var y = $(obj).attr('data-y');
-        dx.log('Direction detail: ' + $(obj).text() + 'xy: ' + x + ' ' + y);
+        dx.log('Direction detail: ' + $(obj).text() + '. xy: ' + x + ' ' + y);
         var mapViewer = dx.getApp().getMapViewer();
         mapViewer.clearFeatures();
         //add marker

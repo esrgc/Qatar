@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("ESRGC.Qatar.WebApp_Routes")]
+[assembly: AssemblyTitle("ESRGC.Qatar.WebApp")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Salisbury University")]
-[assembly: AssemblyProduct("ESRGC.Qatar.WebApp_Routes")]
+[assembly: AssemblyProduct("ESRGC.Qatar.WebApp")]
 [assembly: AssemblyCopyright("Copyright © Salisbury University 2014")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

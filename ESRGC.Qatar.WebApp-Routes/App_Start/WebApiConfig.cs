@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace ESRGC.Qatar.WebApp_Routes
+namespace ESRGC.Qatar.WebApp
 {
   public static class WebApiConfig
   {

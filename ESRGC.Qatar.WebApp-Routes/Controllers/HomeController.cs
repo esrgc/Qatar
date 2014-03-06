@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace ESRGC.Qatar.WebApp_Routes.Controllers
+namespace ESRGC.Qatar.WebApp.Controllers
 {
     public class HomeController : Controller
     {
@@ -14,6 +14,9 @@ namespace ESRGC.Qatar.WebApp_Routes.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+        public ActionResult ResidentLocator() {
+          return View();
         }
 
     }
