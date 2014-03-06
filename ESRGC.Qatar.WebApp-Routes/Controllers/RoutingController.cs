@@ -6,10 +6,10 @@ using System.Web.Mvc;
 
 namespace ESRGC.Qatar.WebApp.Controllers
 {
-    public class HomeController : Controller
+    public class RoutingController : Controller
     {
         //
-        // GET: /Home/
+        // GET: /Routing/
 
         public ActionResult Index()
         {
