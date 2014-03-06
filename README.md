@@ -2,5 +2,6 @@ Qatar
 =====
 
 Qatar routing map application
-
-[View test site](http://fairview.salisbury.edu/MVCWebApps/Qatar/Routes/)
+Test site links
+[Routing](http://fairview.salisbury.edu/MVCWebApps/Qatar/Routes/)
+[Residence locator] (http://fairview.salisbury.edu/MVCWebApps/Qatar/Routes/home/residentLocator)
