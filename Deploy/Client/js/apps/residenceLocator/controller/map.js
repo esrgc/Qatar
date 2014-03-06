@@ -56,7 +56,7 @@ dx.defineController('Map', {
 
         }
 
-
+        mapViewer.zoomToPoint({ x: 25.3199, y: 51.5221 }, 16);
         //var routeStore = dx.getStore('Routes');
         //if (typeof routeStore != 'undefined')
         //    routeStore.on('load', this.onRouteStoreLoad);
@@ -64,8 +64,43 @@ dx.defineController('Map', {
         //if (typeof directionStore != 'undefined')
         //    directionStore.on('load', this.onDirectionStoreLoad);
     },
-    onFacilityStoreLoad: function(data, store) {
+    onFacilityStoreLoad: function(store, data) {
         dx.log(data);
+        //get mapviewer
+        var mapViewer = dx.getApp().getMapViewer();
+        if (mapViewer === undefined) {
+            dx.log('onFacilityStoreLoad: No mapViewer found!');
+            return;
+        }
+        mapViewer.addGeoJsonLayer(data, {
+            style: function(feature) {
+                return {
+                    fill: true,
+                    weight: 4,
+                    fillOpacity: .5,
+                    fillColor: '#F7F988',
+                    color: '#00FF00'
+                };
+            },
+            onEachFeature: function(feature, layer) {
+                var html = [
+                    '<p>',
+
+                        '<strong>',
+                            feature.properties.NAME.toUpperCase(),
+                        '</strong>',
+                        '<br/>',
+                        '<span>',
+                            'Type:&nbsp;',
+                            feature.properties.Building_T,
+                        '</span>',
+                    '</p>'
+                ].join('');
+                layer.bindPopup(html);
+            }
+        });
+        //mapViewer.zoomToGeoJsonFeatures();
+        dx.log('Facilities loaded')
     }
 
 });

@@ -56,7 +56,7 @@ dx.defineController('Map', {
 
         }
 
-        mapViewer.zoomToPoint({ x: 25.3199, y: 51.5221 });
+        mapViewer.zoomToPoint({ x: 25.3199, y: 51.5221 }, 16);
         //var routeStore = dx.getStore('Routes');
         //if (typeof routeStore != 'undefined')
         //    routeStore.on('load', this.onRouteStoreLoad);

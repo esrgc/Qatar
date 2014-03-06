@@ -172,6 +172,7 @@
     <Content Include="Client\data\directions\xml\USEmbassy_TAMUQ.xml" />
     <Content Include="Client\data\facilities\All_Facilities.geojson" />
     <None Include="Client\data\residence\DareenResidence.json" />
+    <Content Include="Client\images\esrgc.png" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap-theme.css" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap-theme.min.css" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap.css" />
