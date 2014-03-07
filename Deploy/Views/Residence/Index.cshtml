@@ -24,15 +24,46 @@
     </div>
 </div>*@
 <div class="full-screen" id="map" data-resourceUrl="@Url.Content("~/Client/data")"></div>
+<!-- Modal -->
+<div class="modal fade" id="facility-modal" tabindex="-1" role="dialog" aria-labelledby="facilityDetail" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="facilityDetail">Facility Detail</h4>
+            </div>
+            <div class="modal-body">
+                <div class="list-group">
+                    <!-- ko foreach: $root -->
+                    <a href="#" class="list-group-item">
+                        <strong data-bind="text: $data['Residential Unit']"></strong>
+                        <p>
+                            <span>Unit:&nbsp;</span><span data-bind="text: $data.UNIT"></span><br />
+                            <span>Phone:&nbsp;</span><span data-bind="text: $data.TEL"></span><br />
+                            <span>Department:&nbsp;</span><span data-bind="text: $data.DEPARTMENTS"></span><br />
+                            <span>Tenant:&nbsp;</span><span data-bind="text: $data.TENANTS"></span><br />
+                            <span>Account:&nbsp;</span><span data-bind="text: $data.ACCOUNT"></span>
+                        </p>
+                    </a>
+                    <!-- /ko -->
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 @section footerContent {
- <div class="text-center">
-    <img src="~/Client/images/esrgc.png" alt="" />
- </div>    
+    <div class="text-center">
+        <img src="~/Client/images/esrgc.png" alt="" />
+    </div>
 }
 
 @section scripts{
     <script src="~/Client/jsLib/knockoutjs/knockout-3.0.0.js"></script>
+    <script src="~/Client/jsLib/knockoutjs/knockout.mapping-latest.debug.js"></script>
     <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
     <script src="~/Client/jsLib/leaflet-0.7.2/leaflet.js"></script>
     <script src="~/Client/jsLib/esri-leaflet/esri-leaflet.js"></script>
@@ -42,6 +73,8 @@
     <script src="~/Client/js/dx/map/mapViewer.js"></script>
     <script src="~/Client/js/dx/map/leafletViewer.js"></script>
     <script src="~/Client/js/apps/residenceLocator/store/facility.js"></script>
+    <script src="~/Client/js/apps/residenceLocator/store/residence.js"></script>
     <script src="~/Client/js/apps/residenceLocator/controller/map.js"></script>
+    <script src="~/Client/js/apps/residenceLocator/view/map.js"></script>
     <script src="~/Client/js/apps/residenceLocator/app.js"></script>
 }

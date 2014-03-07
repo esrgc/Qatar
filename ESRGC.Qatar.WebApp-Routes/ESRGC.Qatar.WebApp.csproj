@@ -173,7 +173,7 @@
     <Content Include="Client\data\directions\xml\USEmbassy_PearlGarden.xml" />
     <Content Include="Client\data\directions\xml\USEmbassy_TAMUQ.xml" />
     <Content Include="Client\data\facilities\All_Facilities.geojson" />
-    <None Include="Client\data\residence\DareenResidence.json" />
+    <None Include="Client\data\residence\AL_DAREEN.json" />
     <Content Include="Client\images\esrgc.png" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap-theme.css" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap-theme.min.css" />
@@ -225,6 +225,8 @@
     <Content Include="Client\jsLib\jqueryValidate\jquery.validate.unobtrusive.js" />
     <Content Include="Client\jsLib\jqueryValidate\jquery.validate.unobtrusive.min.js" />
     <Content Include="Client\jsLib\knockoutjs\knockout-3.0.0.js" />
+    <Content Include="Client\jsLib\knockoutjs\knockout.mapping-latest.debug.js" />
+    <Content Include="Client\jsLib\knockoutjs\knockout.mapping-latest.js" />
     <Content Include="Client\jsLib\leaflet-0.6.4\images\layers-2x.png" />
     <Content Include="Client\jsLib\leaflet-0.6.4\images\layers.png" />
     <Content Include="Client\jsLib\leaflet-0.6.4\images\marker-icon-2x.png" />
@@ -266,6 +268,8 @@
     <Content Include="Client\js\apps\residenceLocator\app.js" />
     <Content Include="Client\js\apps\residenceLocator\controller\map.js" />
     <Content Include="Client\js\apps\residenceLocator\store\facility.js" />
+    <Content Include="Client\js\apps\residenceLocator\store\residence.js" />
+    <Content Include="Client\js\apps\residenceLocator\view\map.js" />
     <Content Include="Client\js\bootstrapValidation.js" />
     <Content Include="Client\js\dx\dx.min.js" />
     <Content Include="Client\js\dx\map\leafletViewer.js" />
@@ -330,7 +334,6 @@
     <Folder Include="Client\js\apps\qatar\model\" />
     <Folder Include="Client\js\apps\qatar\view\" />
     <Folder Include="Client\js\apps\residenceLocator\model\" />
-    <Folder Include="Client\js\apps\residenceLocator\view\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>

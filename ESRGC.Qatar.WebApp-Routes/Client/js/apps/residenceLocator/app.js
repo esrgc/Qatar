@@ -12,9 +12,9 @@ dx library
 
 dx.application({
     name: 'ResidenceLocator',
-    stores: ['Facility'],
+    stores: ['Facility', 'Residence'],
     models: [],
-    views: [],
+    views: ['Map'],
     controllers: ['Map'],
     launch: function() {
         dx.log('App launch function run!')
