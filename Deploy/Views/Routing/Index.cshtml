@@ -23,31 +23,34 @@
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-2 control-label">From - To</label>
-                            <div class="col-sm-8">
-                                <select class="form-control col-sm-9" id="routeList" data-url="@resourceUrl">
-                                    <option value="none">-Destinations-</option>
-                                    <option value="USEmbassy_TAMUQ">United Stated Embassy - Texas A&M University at Qatar</option>
-                                    <option value="USEmbassy_PearlGarden">United States Embassy - Pearl Garden Compound</option>
-                                    <option value="TAMUQ_USEmbassy">Texas A&M University at Qatar - United States Embassy</option>
-                                    <option value="TAMUQ_FamilyFoodCenter">Texas A&M University at Qatar - Family Food Center</option>
-                                    <option value="TAMUQ_DohaInternationalAirport">
-                                        Texas A&M University at Qatar - Doha International Airport
-                                        Departure Terminal
-                                    </option>
-                                    <option value="PearlGarden_USEmbassy">Pearl Garden Compound - United States Embassy</option>
-                                    <option value="PearlGarden_DohaInternationalAirport">
-                                        Pearl Garden Compound - Doha International Airport
-                                        Departure Terminal
-                                    </option>
-                                    <option value="FamilyFoodCenter_TAMUQ">Family Food Center - Texas A&M University at Qatar</option>
-                                    <option value="DohaInternationalAirport_TAMUQ">Doha International Airport - Texas A&M University at Qatar</option>
-                                    <option value="DohaInternationalAirport_PearlGarden">Doha International Airport - Pearl Garden Compound</option>
-                                    <option value="DohaInternationalAirport_DarSalam">Doha International Airport - Dar Salam</option>
-                                    <option value="DohaInternationalAirport_AlDareen">Doha International Airport - Al Dareen</option>
-                                    <option value="DarSalam_DohaInternationalAirport">Dar Salam - Doha International Airport Departure Terminal</option>
-                                    <option value="AlDareen_DohaInternationalAirport">Al Dareen - Doha International Airport Departure Terminal</option>
+                            <label class="col-sm-1 control-label">From</label>
+                            <div class="col-sm-4">
+                                <select class="form-control col-sm-6" id="routeList-from">
+                                    <option value="none">-From-</option>
+                                    <option value="USEmbassy">United Stated Embassy</option>
+                                    <option value="PearlGarden">Pearl Garden Compound</option>
+                                    <option value="TAMUQ">Texas A&M University at Qatar</option>
+                                    <option value="FamilyFoodCenter">Family Food Center</option>
+                                    <option value="DohaInternationalAirport">Doha International Airport Departure Terminal</option>
+                                    <option value="DarSalam">Dar Salam</option>
+                                    <option value="AlDareen">Al Dareen</option>
                                 </select>
+                            </div>
+                            <label class="col-sm-1 control-label">To</label>
+                            <div class="col-sm-4">
+                                <select class="form-control col-sm-6" id="routeList-to">
+                                    <option value="none">-Destination-</option>
+                                    <option value="USEmbassy">United Stated Embassy</option>
+                                    <option value="PearlGarden">Pearl Garden Compound</option>
+                                    <option value="TAMUQ">Texas A&M University at Qatar</option>
+                                    <option value="FamilyFoodCenter">Family Food Center</option>
+                                    <option value="DohaInternationalAirport">Doha International Airport Departure Terminal</option>
+                                    <option value="DarSalam">Dar Salam</option>
+                                    <option value="AlDareen">Al Dareen</option>
+                                </select>
+                            </div>
+                            <div class="col-sm-2">
+                                <button class="btn btn-default" type="button" id="routeBtn" data-url="@resourceUrl">Route</button>
                             </div>
                         </div>
                     </form>
@@ -76,14 +79,15 @@
     </div>
 </div>
 @section footerContent {
- <div class="text-center">
-    <img src="~/Client/images/esrgc.png" alt="" />
- </div>    
+    <div class="text-center">
+        <img src="~/Client/images/esrgc.png" alt="" />
+    </div>
 }
 
 @section scripts{
-    <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
     <script src="~/Client/jsLib/leaflet-0.7.2/leaflet.js"></script>
+    <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
+    <script src="~/Client/jsLib/esri-leaflet/esri-leaflet.js"></script>
     <script src="~/Client/jsLib/wicket-leaflet/wicket-leaflet.js"></script>
     <script src="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
     <script src="~/Client/js/dx/dx.min.js"></script>

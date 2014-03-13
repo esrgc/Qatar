@@ -33,7 +33,7 @@ dx.defineController('Map', {
         //initialize the map viewer
         var mapViewer = app.appData.mapViewer = new dx.map.LeafletViewer({
             center: new L.LatLng(25.3199, 51.5221),//Qatar coordinates
-            zoomLevel: 12,
+            zoomLevel: 11,
             baseLayers: {
                 //add esri layer
                 Gray: L.esri.basemapLayer("Gray"),
@@ -65,7 +65,6 @@ dx.defineController('Map', {
                 store.url = resourceUrl + store.url;
             }
         }
-        mapViewer.zoomToGeoJsonFeatures();
         //mapViewer.zoomToPoint({ x: 25.3199, y: 51.5221 }, 16);
         //var routeStore = dx.getStore('Routes');
         //if (typeof routeStore != 'undefined')

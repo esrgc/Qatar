@@ -23,9 +23,17 @@
         </div>
     </div>
 </div>*@
-<div class="full-screen" id="map" data-resourceUrl="@Url.Content("~/Client/data")"></div>
+<div class="full-screen" id="map" data-resourceUrl="@Url.Content("~/Client/data")">
+</div>
+<div class="overlay search-box col-md-4 col-xs-8">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-search"></i></span>
+        <input type="text" id="facilityName" name="facilityName" class="form-control" placeholder="Facility name" />
+    </div>
+</div>
 <!-- Modal -->
-<div class="modal fade" id="facility-modal" tabindex="-1" role="dialog" aria-labelledby="facilityDetail" aria-hidden="true">
+<div class="modal fade" id="facility-modal" tabindex="-1" role="dialog" aria-labelledby="facilityDetail"
+    aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
@@ -64,8 +72,9 @@
 @section scripts{
     <script src="~/Client/jsLib/knockoutjs/knockout-3.0.0.js"></script>
     <script src="~/Client/jsLib/knockoutjs/knockout.mapping-latest.debug.js"></script>
-    <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
     <script src="~/Client/jsLib/leaflet-0.7.2/leaflet.js"></script>
+    @*<script src="~/Client/jsLib/leaflet-0.7.2/leaflet-src.js"></script>*@
+    <script src="~/Client/jsLib/wicket-leaflet/wicket.js"></script>
     <script src="~/Client/jsLib/esri-leaflet/esri-leaflet.js"></script>
     <script src="~/Client/jsLib/wicket-leaflet/wicket-leaflet.js"></script>
     <script src="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.min.js"></script>
