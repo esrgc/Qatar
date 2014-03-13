@@ -147,7 +147,6 @@ dx.defineController('Map', {
         }
         var url = store.url + facName + '.json';
         store.loadContentUrl(url);//load residence data
-
     }
 
 });

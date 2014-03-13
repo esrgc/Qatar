@@ -14,12 +14,15 @@ dx library
 dx.defineController('Map', {
     refs: {
         mapContainer: '#map',
-        popupLinks: '.popup-detail a'
+        popupLinks: '.popup-detail a',
+        infoModal: '#facility-modal',
+        searchBox: '#facilityName'
     },
     control: {
         popupLinks: {
             click: 'onPopupLinksClick'
-        }
+        },
+        searchBox: { 'change': 'onFacNameChange' }
     },
     initialize: function(e) {
         dx.app.controller.Map.parent.initialize.apply(this, arguments);
@@ -33,12 +36,12 @@ dx.defineController('Map', {
             zoomLevel: 12,
             baseLayers: {
                 //add esri layer
-                EsriGray: L.esri.basemapLayer("Gray"),
-                EsriImagery: L.esri.basemapLayer('Imagery')
+                Gray: L.esri.basemapLayer("Gray"),
+                Imagery: L.esri.basemapLayer('Imagery')
             },
             overlays: {
-                EsriImageryLabels: L.esri.basemapLayer('ImageryLabels'),
-                EsriImageryTransportation: L.esri.basemapLayer('ImageryTransportation')
+                'Imagery Labels': L.esri.basemapLayer('ImageryLabels'),
+                'Transportation Labels': L.esri.basemapLayer('ImageryTransportation')
             }
         });
         app.getMapViewer = function() {
@@ -62,8 +65,8 @@ dx.defineController('Map', {
                 store.url = resourceUrl + store.url;
             }
         }
-
-        mapViewer.zoomToPoint({ x: 25.3199, y: 51.5221 }, 16);
+        mapViewer.zoomToGeoJsonFeatures();
+        //mapViewer.zoomToPoint({ x: 25.3199, y: 51.5221 }, 16);
         //var routeStore = dx.getStore('Routes');
         //if (typeof routeStore != 'undefined')
         //    routeStore.on('load', this.onRouteStoreLoad);
@@ -72,6 +75,7 @@ dx.defineController('Map', {
         //    directionStore.on('load', this.onDirectionStoreLoad);
     },
     onResidenceStoreLoad: function(store, data) {
+        var scope = dx.getController('Map');
         //update view model
         var view = dx.getView('Map');
         if (view === undefined) {
@@ -95,6 +99,7 @@ dx.defineController('Map', {
                 dx.log(e.message);
             }
         }
+        scope.getInfoModal().modal('show');
     },
     onFacilityStoreLoad: function(store, data) {
         //dx.log(data);
@@ -127,7 +132,7 @@ dx.defineController('Map', {
                             feature.properties.Building_T,
                         '</span>',
                     '</p>',
-                    '<a href="#" data-toggle="modal" data-target="#facility-modal"',
+                    '<a href="#"',
                         'data-facility="' + feature.properties.NAME.toUpperCase().replace(' ', '_') + '">View details</a>',
                     '</div>'
                 ].join('');
@@ -147,6 +152,23 @@ dx.defineController('Map', {
         }
         var url = store.url + facName + '.json';
         store.loadContentUrl(url);//load residence data
+    },
+    onFacNameChange: function(event, object) {
+        var mapViewer = dx.getApp().getMapViewer();
+        var facName = $(object).val().trim();
+        if (facName == '') return;
+        var facilityLayer = dx.getApp().getMapViewer().getGeoJsonGroup();
+        facilityLayer.eachLayer(function(layer) {
+            var layers = layer.getLayers();
+            for (var i in layers) {
+                var l = layers[i];
+                if (l.feature.properties.NAME.toUpperCase().indexOf(facName.toUpperCase()) != -1) {
+                    mapViewer.zoomToDataExtent(l);
+                    return;
+                }
+            }
+            alert('Facility not found!');
+        });
 
     }
 

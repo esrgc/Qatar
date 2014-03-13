@@ -68,6 +68,12 @@ dx.map.LeafletViewer = dx.define({
         L.control.layers(baseMaps, overlayMaps).addTo(this.map);
         L.control.scale().addTo(this.map);
     },
+    getGeoJsonGroup: function() {
+        return this.geoJsonFeatures;
+    },
+    getFeatureGroup: function() {
+        return this.features;
+    },
     addGeoJsonLayer: function(data, option) {
         if (typeof data == 'undefined') {
             dx.log('No data found')

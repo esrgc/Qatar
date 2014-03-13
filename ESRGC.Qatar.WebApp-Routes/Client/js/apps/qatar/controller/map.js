@@ -15,15 +15,17 @@ dx library
 
 dx.defineController('Map', {
     refs: {
-        routeList: '#routeList',
+        routeListFrom: '#routeList-from',
+        routeListTo: '#routeList-to',
+        routeBtn: '#routeBtn',
         directionContainer: '#directionContainer',
         directionOverview: '#directionSummary',
         directionList: '#directionList',
         directionItems: 'a.list-group-item'
     },
     control: {
-        routeList: {
-            change: 'onRouteChange'
+        routeBtn: {
+            click: 'onRouteBtnClick'
         },
         directionItems: {
             click: 'onDirectionClick'
@@ -38,7 +40,16 @@ dx.defineController('Map', {
         //initialize the map viewer
         app.appData.mapViewer = new dx.map.LeafletViewer({
             center: new L.LatLng(25.280468, 51.522312),//Qatar coordinates
-            zoomLevel: 9
+            zoomLevel: 9,
+            baseLayers: {
+                //add esri layer
+                Gray: L.esri.basemapLayer("Gray"),
+                Imagery: L.esri.basemapLayer('Imagery')
+            },
+            overlays: {
+                'Imagery Labels': L.esri.basemapLayer('ImageryLabels'),
+                'Transportation Labels': L.esri.basemapLayer('ImageryTransportation')
+            }
         });
         app.getMapViewer = function() {
             return app.appData.mapViewer;
@@ -50,10 +61,13 @@ dx.defineController('Map', {
         if (typeof directionStore != 'undefined')
             directionStore.on('load', this.onDirectionStoreLoad);
     },
-    onRouteChange: function(e, object) {
+    onRouteBtnClick: function(e, object) {
+        var scope = this;
         dx.log('Route changed: ');
         //get selected route
-        var route = $(object).val();
+        var from = scope.getRouteListFrom().val();
+        var to = scope.getRouteListTo().val();
+        var route = from + '_' + to;
         dx.log(route);
         if (route == 'none')
             return;

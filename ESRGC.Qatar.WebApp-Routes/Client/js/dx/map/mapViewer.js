@@ -36,6 +36,7 @@ dx.map.MapViewer = dx.define({
         this.map.zoomOut();
     },
     zoomToDataExtent: function(layer) {
+        this.map.fitBounds(layer.getBounds());
     },
     panTo: function(x, y) {
         this.map.panTo(new L.LatLng(y, x));
