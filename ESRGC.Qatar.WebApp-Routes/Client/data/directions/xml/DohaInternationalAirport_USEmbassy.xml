@@ -1,0 +1,227 @@
+<?xml version="1.0"?><NA:DIRECTIONS version="1.0" xmlns:NA="http://www.esri.com/arcgis/directions" xmlns="http://www.esri.com/arcgis/directions">
+  <ROUTE id="90" name="Doha International Airport Departure Terminal - United States Embassy">
+    <PATH id="1" fromStop="Doha International Airport Departure Terminal" toStop="United States Embassy">
+      <DIRECTION id="1" distance="0.000000" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="depart">
+        <ENVELOPE minx="51.557893" miny="25.267774" maxx="51.557893" maxy="25.267774"/>
+        <POINT name="maneuver" x="51.557893" y="25.267774"/>
+        <STRINGS>
+          <STRING style="depart" text="Start at Doha International Airport Departure Terminal"/>
+          <STRING style="Cumul_length" text="0 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="2" distance="0.533610" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="209.023675" maneuvertype="straight">
+        <ENVELOPE minx="51.555881" miny="25.263932" maxx="51.557893" maxy="25.268979"/>
+        <POINT name="maneuver" x="51.557893" y="25.267774"/>
+        <STRINGS>
+          <STRING style="normal" text="Go southwest"/>
+          <STRING style="Cumul_length" text="0 mi"/>
+          <STRING style="summary" text="Drive 0.5 mi"/>
+          <STRING style="length" text="0.5 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="3" distance="1.538579" cumul_length="0.533610" time="0.000000" drivetime="0.000000" turn_angle="8.295675" depart_bearing="305.453895" general_bearing="305.981040" maneuvertype="straight">
+        <ENVELOPE minx="51.536713" miny="25.264148" maxx="51.555881" maxy="25.278065"/>
+        <POINT name="maneuver" x="51.555881" y="25.264148"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on Al Matar Street"/>
+          <STRING style="Cumul_length" text="0.5 mi"/>
+          <STRING style="summary" text="Drive 1.5 mi"/>
+          <STRING style="length" text="1.5 mi"/>
+          <STRING style="street_name" text="Al Matar Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="4" distance="0.149103" cumul_length="2.072189" time="0.000000" drivetime="0.000000" turn_angle="349.742191" depart_bearing="302.737583" general_bearing="322.571738" maneuvertype="straight">
+        <ENVELOPE minx="51.535375" miny="25.278065" maxx="51.536713" maxy="25.279813"/>
+        <POINT name="maneuver" x="51.536713" y="25.278065"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="2.1 mi"/>
+          <STRING style="summary" text="Drive 0.1 mi"/>
+          <STRING style="length" text="0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="5" distance="0.003125" cumul_length="2.221292" time="0.000000" drivetime="0.000000" turn_angle="35.157556" depart_bearing="19.990941" general_bearing="19.990941" maneuvertype="bear_right">
+        <ENVELOPE minx="51.535375" miny="25.279813" maxx="51.535392" maxy="25.279858"/>
+        <POINT name="maneuver" x="51.535375" y="25.279813"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Ahmed Bin Mohammed Bin Thani Street"/>
+          <STRING style="Cumul_length" text="2.2 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Ahmed Bin Mohammed Bin Thani Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="6" distance="0.012131" cumul_length="2.224417" time="0.000000" drivetime="0.000000" turn_angle="251.694022" depart_bearing="271.684963" general_bearing="296.430080" maneuvertype="turn_left">
+        <ENVELOPE minx="51.535234" miny="25.279858" maxx="51.535392" maxy="25.279937"/>
+        <POINT name="maneuver" x="51.535392" y="25.279858"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left to stay on Ahmed Bin Mohammed Bin Thani Street"/>
+          <STRING style="Cumul_length" text="2.2 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Ahmed Bin Mohammed Bin Thani Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="7" distance="0.726037" cumul_length="2.236548" time="0.000000" drivetime="0.000000" turn_angle="274.148034" depart_bearing="233.913922" general_bearing="281.362747" maneuvertype="turn_left">
+        <ENVELOPE minx="51.524725" miny="25.279550" maxx="51.535234" maxy="25.282049"/>
+        <POINT name="maneuver" x="51.535234" y="25.279937"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left at Grand Hamad Street/Al Matar Street to stay on Ahmed Bin Mohammed Bin Thani Street"/>
+          <STRING style="Cumul_length" text="2.2 mi"/>
+          <STRING style="summary" text="Drive 0.7 mi"/>
+          <STRING style="length" text="0.7 mi"/>
+          <STRING style="street_name" text="Ahmed Bin Mohammed Bin Thani Street"/>
+          <STRING style="intersected_road_name" text="Grand Hamad Street/Al Matar Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="8" distance="0.004797" cumul_length="2.962585" time="0.000000" drivetime="0.000000" turn_angle="349.290219" depart_bearing="314.013549" general_bearing="314.013549" maneuvertype="straight">
+        <ENVELOPE minx="51.524672" miny="25.282049" maxx="51.524725" maxy="25.282100"/>
+        <POINT name="maneuver" x="51.524725" y="25.282049"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue to stay on Ahmed Bin Mohammed Bin Thani Street"/>
+          <STRING style="Cumul_length" text="3 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Ahmed Bin Mohammed Bin Thani Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="9" distance="0.464329" cumul_length="2.967382" time="0.000000" drivetime="0.000000" turn_angle="18.176004" depart_bearing="332.189554" general_bearing="348.957599" maneuvertype="bear_right">
+        <ENVELOPE minx="51.523396" miny="25.282100" maxx="51.524672" maxy="25.288639"/>
+        <POINT name="maneuver" x="51.524672" y="25.282100"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Al Diwan Street"/>
+          <STRING style="Cumul_length" text="3 mi"/>
+          <STRING style="summary" text="Drive 0.5 mi"/>
+          <STRING style="length" text="0.5 mi"/>
+          <STRING style="street_name" text="Al Diwan Street"/>
+          <STRING style="intersected_road_name" text="Wadi Mushaireb Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="10" distance="0.007824" cumul_length="3.431712" time="0.000000" drivetime="0.000000" turn_angle="355.304368" depart_bearing="338.882323" general_bearing="338.807504" maneuvertype="straight">
+        <ENVELOPE minx="51.523355" miny="25.288639" maxx="51.523396" maxy="25.288745"/>
+        <POINT name="maneuver" x="51.523396" y="25.288639"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on Qalat Al Askar Street"/>
+          <STRING style="Cumul_length" text="3.4 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Qalat Al Askar Street"/>
+          <STRING style="intersected_road_name" text="Al Rayyan Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="11" distance="0.451609" cumul_length="3.439536" time="0.000000" drivetime="0.000000" turn_angle="303.437246" depart_bearing="282.176007" general_bearing="277.808414" maneuvertype="turn_left">
+        <ENVELOPE minx="51.516251" miny="25.288745" maxx="51.523355" maxy="25.289720"/>
+        <POINT name="maneuver" x="51.523355" y="25.288745"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left on Al Rayyan Road"/>
+          <STRING style="Cumul_length" text="3.4 mi"/>
+          <STRING style="summary" text="Drive 0.5 mi"/>
+          <STRING style="length" text="0.5 mi"/>
+          <STRING style="street_name" text="Al Rayyan Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="12" distance="0.016065" cumul_length="3.891145" time="0.000000" drivetime="0.000000" turn_angle="9.249228" depart_bearing="310.608860" general_bearing="294.646060" maneuvertype="straight">
+        <ENVELOPE minx="51.516034" miny="25.289720" maxx="51.516251" maxy="25.289819"/>
+        <POINT name="maneuver" x="51.516251" y="25.289720"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on Gulf Interchange"/>
+          <STRING style="Cumul_length" text="3.9 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Gulf Interchange"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="13" distance="0.020894" cumul_length="3.907210" time="0.000000" drivetime="0.000000" turn_angle="265.017002" depart_bearing="265.017002" general_bearing="243.869075" maneuvertype="turn_left_left">
+        <ENVELOPE minx="51.515756" miny="25.289683" maxx="51.516034" maxy="25.289819"/>
+        <POINT name="maneuver" x="51.516034" y="25.289819"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left on Gulf Interchange and immediately make sharp left on Gulf Interchange"/>
+          <STRING style="Cumul_length" text="3.9 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Gulf Interchange"/>
+          <STRING style="intersected_road_name" text="Al Khaleej Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="14" distance="1.223895" cumul_length="3.928104" time="0.000000" drivetime="0.000000" turn_angle="24.456810" depart_bearing="245.673384" general_bearing="278.415002" maneuvertype="bear_right">
+        <ENVELOPE minx="51.496605" miny="25.289585" maxx="51.515756" maxy="25.292523"/>
+        <POINT name="maneuver" x="51.515756" y="25.289683"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Al Rayyan Road"/>
+          <STRING style="Cumul_length" text="3.9 mi"/>
+          <STRING style="summary" text="Drive 1.2 mi"/>
+          <STRING style="length" text="1.2 mi"/>
+          <STRING style="street_name" text="Al Rayyan Road"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="15" distance="0.944742" cumul_length="5.151999" time="0.000000" drivetime="0.000000" turn_angle="333.976778" depart_bearing="240.881881" general_bearing="278.249939" maneuvertype="bear_left">
+        <ENVELOPE minx="51.481746" miny="25.292404" maxx="51.496605" maxy="25.294670"/>
+        <POINT name="maneuver" x="51.496605" y="25.292516"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear left at Mohammed Bin Thani Street to stay on Al Rayyan Road"/>
+          <STRING style="Cumul_length" text="5.2 mi"/>
+          <STRING style="summary" text="Drive 0.9 mi"/>
+          <STRING style="length" text="0.9 mi"/>
+          <STRING style="street_name" text="Al Rayyan Road"/>
+          <STRING style="intersected_road_name" text="Mohammed Bin Thani Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="16" distance="1.634229" cumul_length="6.096741" time="0.000000" drivetime="0.000000" turn_angle="4.575245" depart_bearing="283.475057" general_bearing="331.618174" maneuvertype="straight">
+        <ENVELOPE minx="51.471598" miny="25.294670" maxx="51.481746" maxy="25.313452"/>
+        <POINT name="maneuver" x="51.481746" y="25.294670"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="6.1 mi"/>
+          <STRING style="summary" text="Drive 1.6 mi"/>
+          <STRING style="length" text="1.6 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="17" distance="0.019695" cumul_length="7.730970" time="0.000000" drivetime="0.000000" turn_angle="269.423810" depart_bearing="258.287771" general_bearing="258.287932" maneuvertype="turn_left">
+        <ENVELOPE minx="51.471292" miny="25.313388" maxx="51.471598" maxy="25.313452"/>
+        <POINT name="maneuver" x="51.471598" y="25.313452"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left"/>
+          <STRING style="Cumul_length" text="7.7 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="18" distance="0.596907" cumul_length="7.750665" time="0.000000" drivetime="0.000000" turn_angle="269.700381" depart_bearing="167.988565" general_bearing="168.557561" maneuvertype="turn_left">
+        <ENVELOPE minx="51.471292" miny="25.304860" maxx="51.473018" maxy="25.313388"/>
+        <POINT name="maneuver" x="51.471292" y="25.313388"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left"/>
+          <STRING style="Cumul_length" text="7.8 mi"/>
+          <STRING style="summary" text="Drive 0.6 mi"/>
+          <STRING style="length" text="0.6 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="19" distance="0.063467" cumul_length="8.347572" time="0.000000" drivetime="0.000000" turn_angle="54.043569" depart_bearing="222.283191" general_bearing="179.935363" maneuvertype="turn_right">
+        <ENVELOPE minx="51.472879" miny="25.303985" maxx="51.473019" maxy="25.304860"/>
+        <POINT name="maneuver" x="51.473018" y="25.304860"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right"/>
+          <STRING style="Cumul_length" text="8.3 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="20" distance="0.000000" cumul_length="8.411039" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="stop">
+        <ENVELOPE minx="51.473019" miny="25.303985" maxx="51.473019" maxy="25.303985"/>
+        <POINT name="maneuver" x="51.473019" y="25.303985"/>
+        <STRINGS>
+          <STRING style="arrive" text="Finish at United States Embassy"/>
+          <STRING style="Cumul_length" text="8.4 mi"/>
+        </STRINGS>
+      </DIRECTION>
+    </PATH>
+    <DIRECTION id="summary" distance="8.411039" cumul_length="8.411039" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="unknown">
+      <ENVELOPE minx="51.471292" miny="25.263932" maxx="51.557893" maxy="25.313452"/>
+      <STRINGS>
+        <STRING style="summary" text="Driving distance: 8.4 mi"/>
+        <STRING style="length" text="8.4 mi"/>
+        <STRING style="Cumul_length" text="8.4 mi"/>
+      </STRINGS>
+    </DIRECTION>
+  </ROUTE>
+</NA:DIRECTIONS>

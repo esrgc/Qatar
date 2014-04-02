@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<NA:DIRECTIONS version="1.0" xmlns:NA="http://www.esri.com/arcgis/directions" xmlns="http://www.esri.com/arcgis/directions">
+<?xml version="1.0"?><NA:DIRECTIONS version="1.0" xmlns:NA="http://www.esri.com/arcgis/directions" xmlns="http://www.esri.com/arcgis/directions">
   <ROUTE id="67" name="Al Dareen - Doha International Airport Departure Terminal">
     <PATH id="1" fromStop="Al Dareen" toStop="Doha International Airport Departure Terminal">
       <DIRECTION id="1" distance="0.000000" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="depart">

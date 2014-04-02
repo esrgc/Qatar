@@ -15,7 +15,7 @@ dx.application({
     stores: ['Routes', 'Directions'],
     models: [],
     views: [],
-    controllers: ['Map'],
+    controllers: ['Map', 'Route'],
     launch: function() {
         dx.log('App launch function run!')
     }

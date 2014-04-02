@@ -1,0 +1,308 @@
+<?xml version="1.0"?><NA:DIRECTIONS version="1.0" xmlns:NA="http://www.esri.com/arcgis/directions" xmlns="http://www.esri.com/arcgis/directions">
+  <ROUTE id="99" name="Al Dareen - Texas A&amp;M University at Qatar">
+    <PATH id="1" fromStop="Al Dareen" toStop="Texas A&amp;M University at Qatar">
+      <DIRECTION id="1" distance="0.000000" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="depart">
+        <ENVELOPE minx="51.522986" miny="25.320271" maxx="51.522986" maxy="25.320271"/>
+        <POINT name="maneuver" x="51.522986" y="25.320271"/>
+        <STRINGS>
+          <STRING style="depart" text="Start at Al Dareen"/>
+          <STRING style="Cumul_length" text="0 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="2" distance="0.299867" cumul_length="0.000000" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="223.293815" maneuvertype="straight">
+        <ENVELOPE minx="51.520438" miny="25.317561" maxx="51.522986" maxy="25.320271"/>
+        <POINT name="maneuver" x="51.522986" y="25.320271"/>
+        <STRINGS>
+          <STRING style="normal" text="Go southwest on Al Betra Street"/>
+          <STRING style="Cumul_length" text="0 mi"/>
+          <STRING style="summary" text="Drive 0.3 mi"/>
+          <STRING style="length" text="0.3 mi"/>
+          <STRING style="street_name" text="Al Betra Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="3" distance="0.101854" cumul_length="0.299867" time="0.000000" drivetime="0.000000" turn_angle="270.706229" depart_bearing="181.585508" general_bearing="170.139370" maneuvertype="turn_left">
+        <ENVELOPE minx="51.520411" miny="25.316155" maxx="51.520684" maxy="25.317567"/>
+        <POINT name="maneuver" x="51.520438" y="25.317567"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left"/>
+          <STRING style="Cumul_length" text="0.3 mi"/>
+          <STRING style="summary" text="Drive 0.1 mi"/>
+          <STRING style="length" text="0.1 mi"/>
+          <STRING style="intersected_road_name" text="Al Adaid Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="4" distance="0.284144" cumul_length="0.401721" time="0.000000" drivetime="0.000000" turn_angle="92.697510" depart_bearing="239.583632" general_bearing="234.824401" maneuvertype="turn_right">
+        <ENVELOPE minx="51.517108" miny="25.313635" maxx="51.520684" maxy="25.316155"/>
+        <POINT name="maneuver" x="51.520684" y="25.316155"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right on Al Bidda Street"/>
+          <STRING style="Cumul_length" text="0.4 mi"/>
+          <STRING style="summary" text="Drive 0.3 mi"/>
+          <STRING style="length" text="0.3 mi"/>
+          <STRING style="street_name" text="Al Bidda Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="5" distance="0.293349" cumul_length="0.685865" time="0.000000" drivetime="0.000000" turn_angle="229.260225" depart_bearing="229.260225" general_bearing="214.233509" maneuvertype="turn_left_left">
+        <ENVELOPE minx="51.514665" miny="25.310045" maxx="51.517108" maxy="25.313635"/>
+        <POINT name="maneuver" x="51.517108" y="25.313635"/>
+        <STRINGS>
+          <STRING style="normal" text="Make sharp left on Al Bidda Street and immediately make sharp left on Al Bidda Street"/>
+          <STRING style="Cumul_length" text="0.7 mi"/>
+          <STRING style="summary" text="Drive 0.3 mi"/>
+          <STRING style="length" text="0.3 mi"/>
+          <STRING style="street_name" text="Al Bidda Street"/>
+          <STRING style="intersected_road_name" text="Al Markhiya Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="6" distance="0.005972" cumul_length="0.979215" time="0.000000" drivetime="0.000000" turn_angle="23.834737" depart_bearing="250.554771" general_bearing="250.554771" maneuvertype="bear_right">
+        <ENVELOPE minx="51.514579" miny="25.310015" maxx="51.514665" maxy="25.310045"/>
+        <POINT name="maneuver" x="51.514665" y="25.310045"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Ludaihi Roundabout"/>
+          <STRING style="Cumul_length" text="1 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Ludaihi Roundabout"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="7" distance="1.246524" cumul_length="0.985187" time="0.000000" drivetime="0.000000" turn_angle="24.150083" depart_bearing="274.704853" general_bearing="293.849364" maneuvertype="bear_right">
+        <ENVELOPE minx="51.496691" miny="25.310015" maxx="51.514579" maxy="25.317923"/>
+        <POINT name="maneuver" x="51.514579" y="25.310015"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Khalifa Street"/>
+          <STRING style="Cumul_length" text="1 mi"/>
+          <STRING style="summary" text="Drive 1.2 mi"/>
+          <STRING style="length" text="1.2 mi"/>
+          <STRING style="street_name" text="Khalifa Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="8" distance="0.071093" cumul_length="2.231711" time="0.000000" drivetime="0.000000" turn_angle="359.925866" depart_bearing="320.601628" general_bearing="291.054739" maneuvertype="straight">
+        <ENVELOPE minx="51.495742" miny="25.317923" maxx="51.496691" maxy="25.318325"/>
+        <POINT name="maneuver" x="51.496691" y="25.317923"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on Television Roundabout"/>
+          <STRING style="Cumul_length" text="2.2 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Television Roundabout"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="9" distance="0.614305" cumul_length="2.302803" time="0.000000" drivetime="0.000000" turn_angle="7.857402" depart_bearing="273.715872" general_bearing="293.576173" maneuvertype="straight">
+        <ENVELOPE minx="51.486911" miny="25.318288" maxx="51.495742" maxy="25.322142"/>
+        <POINT name="maneuver" x="51.495742" y="25.318288"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on Khalifa Street"/>
+          <STRING style="Cumul_length" text="2.3 mi"/>
+          <STRING style="summary" text="Drive 0.6 mi"/>
+          <STRING style="length" text="0.6 mi"/>
+          <STRING style="street_name" text="Khalifa Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="10" distance="0.051772" cumul_length="2.917108" time="0.000000" drivetime="0.000000" turn_angle="25.498000" depart_bearing="333.394152" general_bearing="281.039209" maneuvertype="bear_right">
+        <ENVELOPE minx="51.486242" miny="25.322142" maxx="51.486911" maxy="25.322380"/>
+        <POINT name="maneuver" x="51.486911" y="25.322142"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Al Markhiya Roundabout"/>
+          <STRING style="Cumul_length" text="2.9 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Al Markhiya Roundabout"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="11" distance="0.696765" cumul_length="2.968880" time="0.000000" drivetime="0.000000" turn_angle="43.251716" depart_bearing="277.800749" general_bearing="269.270770" maneuvertype="bear_right">
+        <ENVELOPE minx="51.475301" miny="25.322133" maxx="51.486242" maxy="25.322974"/>
+        <POINT name="maneuver" x="51.486242" y="25.322272"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Khalifa Street"/>
+          <STRING style="Cumul_length" text="3 mi"/>
+          <STRING style="summary" text="Drive 0.7 mi"/>
+          <STRING style="length" text="0.7 mi"/>
+          <STRING style="street_name" text="Khalifa Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="12" distance="0.332701" cumul_length="3.665644" time="0.000000" drivetime="0.000000" turn_angle="7.335280" depart_bearing="260.891446" general_bearing="255.838082" maneuvertype="straight">
+        <ENVELOPE minx="51.470181" miny="25.320841" maxx="51.475301" maxy="25.322133"/>
+        <POINT name="maneuver" x="51.475301" y="25.322133"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue"/>
+          <STRING style="Cumul_length" text="3.7 mi"/>
+          <STRING style="summary" text="Drive 0.3 mi"/>
+          <STRING style="length" text="0.3 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="13" distance="0.018445" cumul_length="3.998345" time="0.000000" drivetime="0.000000" turn_angle="33.036770" depart_bearing="293.020172" general_bearing="283.153686" maneuvertype="bear_right">
+        <ENVELOPE minx="51.469912" miny="25.320841" maxx="51.470181" maxy="25.320904"/>
+        <POINT name="maneuver" x="51.470181" y="25.320841"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Al Gharrafa Interchange"/>
+          <STRING style="Cumul_length" text="4 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Al Gharrafa Interchange"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="14" distance="0.022085" cumul_length="4.016791" time="0.000000" drivetime="0.000000" turn_angle="180.000000" depart_bearing="0.000000" general_bearing="236.656279" maneuvertype="u_turn">
+        <ENVELOPE minx="51.469638" miny="25.320724" maxx="51.469912" maxy="25.320904"/>
+        <POINT name="maneuver" x="51.469912" y="25.320904"/>
+        <STRINGS>
+          <STRING style="normal" text="Make U-turn and go back on Al Gharrafa Interchange"/>
+          <STRING style="Cumul_length" text="4 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Al Gharrafa Interchange"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="15" distance="0.398919" cumul_length="4.038875" time="0.000000" drivetime="0.000000" turn_angle="43.547528" depart_bearing="256.107542" general_bearing="265.455418" maneuvertype="bear_right">
+        <ENVELOPE minx="51.463298" miny="25.320220" maxx="51.469638" maxy="25.320724"/>
+        <POINT name="maneuver" x="51.469638" y="25.320724"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right"/>
+          <STRING style="Cumul_length" text="4 mi"/>
+          <STRING style="summary" text="Drive 0.4 mi"/>
+          <STRING style="length" text="0.4 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="16" distance="0.916701" cumul_length="4.437794" time="0.000000" drivetime="0.000000" turn_angle="3.637733" depart_bearing="268.535737" general_bearing="268.434617" maneuvertype="straight">
+        <ENVELOPE minx="51.448655" miny="25.319810" maxx="51.463298" maxy="25.320220"/>
+        <POINT name="maneuver" x="51.463298" y="25.320220"/>
+        <STRINGS>
+          <STRING style="normal" text="Continue on Khalifa Street"/>
+          <STRING style="Cumul_length" text="4.4 mi"/>
+          <STRING style="summary" text="Drive 0.9 mi"/>
+          <STRING style="length" text="0.9 mi"/>
+          <STRING style="street_name" text="Khalifa Street"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="17" distance="0.080772" cumul_length="5.354495" time="0.000000" drivetime="0.000000" turn_angle="29.086880" depart_bearing="300.874586" general_bearing="274.074400" maneuvertype="bear_right">
+        <ENVELOPE minx="51.447600" miny="25.319820" maxx="51.448655" maxy="25.320131"/>
+        <POINT name="maneuver" x="51.448655" y="25.319820"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Shaqab Roundabout"/>
+          <STRING style="Cumul_length" text="5.4 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+          <STRING style="street_name" text="Shaqab Roundabout"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="18" distance="0.353081" cumul_length="5.435267" time="0.000000" drivetime="0.000000" turn_angle="31.307017" depart_bearing="242.841507" general_bearing="268.999224" maneuvertype="bear_right">
+        <ENVELOPE minx="51.442161" miny="25.319767" maxx="51.447600" maxy="25.319992"/>
+        <POINT name="maneuver" x="51.447600" y="25.319895"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right on Al Luqta"/>
+          <STRING style="Cumul_length" text="5.4 mi"/>
+          <STRING style="summary" text="Drive 0.4 mi"/>
+          <STRING style="length" text="0.4 mi"/>
+          <STRING style="street_name" text="Al Luqta"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="19" distance="1.293772" cumul_length="5.788348" time="0.000000" drivetime="0.000000" turn_angle="45.494429" depart_bearing="269.584747" general_bearing="256.070450" maneuvertype="turn_right">
+        <ENVELOPE minx="51.422414" miny="25.314903" maxx="51.442161" maxy="25.319800"/>
+        <POINT name="maneuver" x="51.442161" y="25.319800"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right to stay on Al Luqta"/>
+          <STRING style="Cumul_length" text="5.8 mi"/>
+          <STRING style="summary" text="Drive 1.3 mi"/>
+          <STRING style="length" text="1.3 mi"/>
+          <STRING style="street_name" text="Al Luqta"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="20" distance="0.122432" cumul_length="7.082120" time="0.000000" drivetime="0.000000" turn_angle="51.029518" depart_bearing="301.999416" general_bearing="154.984737" maneuvertype="turn_right">
+        <ENVELOPE minx="51.421804" miny="25.314352" maxx="51.422520" maxy="25.314996"/>
+        <POINT name="maneuver" x="51.422414" y="25.314903"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right"/>
+          <STRING style="Cumul_length" text="7.1 mi"/>
+          <STRING style="summary" text="Drive 0.1 mi"/>
+          <STRING style="length" text="0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="21" distance="0.210298" cumul_length="7.204552" time="0.000000" drivetime="0.000000" turn_angle="50.727271" depart_bearing="61.702932" general_bearing="70.109872" maneuvertype="turn_right">
+        <ENVELOPE minx="51.422520" miny="25.314676" maxx="51.425653" maxy="25.315809"/>
+        <POINT name="maneuver" x="51.422520" y="25.314676"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right on Al Luqta"/>
+          <STRING style="Cumul_length" text="7.2 mi"/>
+          <STRING style="summary" text="Drive 0.2 mi"/>
+          <STRING style="length" text="0.2 mi"/>
+          <STRING style="street_name" text="Al Luqta"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="22" distance="0.407939" cumul_length="7.414850" time="0.000000" drivetime="0.000000" turn_angle="18.089556" depart_bearing="88.793921" general_bearing="117.219888" maneuvertype="bear_right">
+        <ENVELOPE minx="51.425653" miny="25.313319" maxx="51.430495" maxy="25.315817"/>
+        <POINT name="maneuver" x="51.425653" y="25.315809"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right"/>
+          <STRING style="Cumul_length" text="7.4 mi"/>
+          <STRING style="summary" text="Drive 0.4 mi"/>
+          <STRING style="length" text="0.4 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="23" distance="0.348028" cumul_length="7.822788" time="0.000000" drivetime="0.000000" turn_angle="304.463204" depart_bearing="106.529415" general_bearing="73.218279" maneuvertype="turn_left_left">
+        <ENVELOPE minx="51.430495" miny="25.313228" maxx="51.435680" maxy="25.314882"/>
+        <POINT name="maneuver" x="51.430495" y="25.313319"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left and immediately turn left"/>
+          <STRING style="Cumul_length" text="7.8 mi"/>
+          <STRING style="summary" text="Drive 0.3 mi"/>
+          <STRING style="length" text="0.3 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="24" distance="0.374868" cumul_length="8.170817" time="0.000000" drivetime="0.000000" turn_angle="98.982244" depart_bearing="98.982244" general_bearing="101.999018" maneuvertype="turn_right_right">
+        <ENVELOPE minx="51.435680" miny="25.313554" maxx="51.440682" maxy="25.314882"/>
+        <POINT name="maneuver" x="51.435680" y="25.314882"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn right and immediately turn right"/>
+          <STRING style="Cumul_length" text="8.2 mi"/>
+          <STRING style="summary" text="Drive 0.4 mi"/>
+          <STRING style="length" text="0.4 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="25" distance="0.009292" cumul_length="8.545685" time="0.000000" drivetime="0.000000" turn_angle="312.953065" depart_bearing="318.667055" general_bearing="316.695872" maneuvertype="turn_left">
+        <ENVELOPE minx="51.440585" miny="25.313819" maxx="51.440682" maxy="25.313923"/>
+        <POINT name="maneuver" x="51.440682" y="25.313819"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left"/>
+          <STRING style="Cumul_length" text="8.5 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="26" distance="0.091478" cumul_length="8.554977" time="0.000000" drivetime="0.000000" turn_angle="45.016778" depart_bearing="0.209283" general_bearing="359.624349" maneuvertype="bear_right">
+        <ENVELOPE minx="51.440576" miny="25.313923" maxx="51.440585" maxy="25.315260"/>
+        <POINT name="maneuver" x="51.440585" y="25.313923"/>
+        <STRINGS>
+          <STRING style="normal" text="Bear right"/>
+          <STRING style="Cumul_length" text="8.6 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="27" distance="0.068395" cumul_length="8.646455" time="0.000000" drivetime="0.000000" turn_angle="271.408084" depart_bearing="271.104722" general_bearing="194.325847" maneuvertype="turn_left_left">
+        <ENVELOPE minx="51.440369" miny="25.314448" maxx="51.440576" maxy="25.315264"/>
+        <POINT name="maneuver" x="51.440576" y="25.315260"/>
+        <STRINGS>
+          <STRING style="normal" text="Turn left and immediately turn left"/>
+          <STRING style="Cumul_length" text="8.6 mi"/>
+          <STRING style="summary" text="Drive &lt; 0.1 mi"/>
+          <STRING style="length" text="&lt; 0.1 mi"/>
+        </STRINGS>
+      </DIRECTION>
+      <DIRECTION id="28" distance="0.000000" cumul_length="8.714850" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="stop">
+        <ENVELOPE minx="51.440369" miny="25.314448" maxx="51.440369" maxy="25.314448"/>
+        <POINT name="maneuver" x="51.440369" y="25.314448"/>
+        <STRINGS>
+          <STRING style="arrive" text="Finish at Texas A&amp;M University at Qatar"/>
+          <STRING style="Cumul_length" text="8.7 mi"/>
+        </STRINGS>
+      </DIRECTION>
+    </PATH>
+    <DIRECTION id="summary" distance="8.714850" cumul_length="8.714850" time="0.000000" drivetime="0.000000" turn_angle="0.000000" depart_bearing="0.000000" general_bearing="0.000000" maneuvertype="unknown">
+      <ENVELOPE minx="51.421804" miny="25.310015" maxx="51.522986" maxy="25.322974"/>
+      <STRINGS>
+        <STRING style="summary" text="Driving distance: 8.7 mi"/>
+        <STRING style="length" text="8.7 mi"/>
+        <STRING style="Cumul_length" text="8.7 mi"/>
+      </STRINGS>
+    </DIRECTION>
+  </ROUTE>
+</NA:DIRECTIONS>
