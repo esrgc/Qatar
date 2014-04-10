@@ -33,7 +33,12 @@
         <div class="push"></div>
     </div>
     <div class="footer">
-        @RenderSection("footerContent", required: false)
+        <div class="text-center">
+            <img src="@Url.Content("~/Client/images/esrgc.png")" alt="" />
+            <img src="@Url.Content("~/Client/images/TAMUQ.png")" alt="" />
+            @RenderSection("footerContent", required: false)
+        </div>
+
     </div>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     @*<script src="https://code.jquery.com/jquery.js"></script>*@

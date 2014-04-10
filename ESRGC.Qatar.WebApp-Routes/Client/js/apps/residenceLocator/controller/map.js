@@ -161,8 +161,10 @@ dx.defineController('Map', {
             var layers = layer.getLayers();
             for (var i in layers) {
                 var l = layers[i];
-                if (l.feature.properties.NAME.toUpperCase().indexOf(facName.toUpperCase()) != -1) {
+                var fname = l.feature.properties.NAME;
+                if (fname.toUpperCase().indexOf(facName.toUpperCase()) != -1) {
                     mapViewer.zoomToDataExtent(l);
+                    $(object).val(fname);
                     return;
                 }
             }

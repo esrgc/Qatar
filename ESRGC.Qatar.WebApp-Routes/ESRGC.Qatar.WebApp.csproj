@@ -147,6 +147,7 @@
     <Content Include="Client\css\less\map.min.css" />
     <Content Include="Client\css\less\site.css" />
     <Content Include="Client\css\less\site.min.css" />
+    <Content Include="Client\css\print.css" />
     <Content Include="Client\data\directions\text\AlDareen_DohaInternationalAirport.txt" />
     <Content Include="Client\data\directions\text\DarSalam_DohaInternationalAirport.txt" />
     <Content Include="Client\data\directions\text\DohaInternationalAirport_AlDareen.txt" />
@@ -181,6 +182,7 @@
     <Content Include="Client\data\facilities\All_Facilities.geojson" />
     <None Include="Client\data\residence\AL_DAREEN.json" />
     <Content Include="Client\images\esrgc.png" />
+    <Content Include="Client\images\TAMUQ.png" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap-theme.css" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap-theme.min.css" />
     <Content Include="Client\jsLib\bootstrap-3.0.1\css\bootstrap.css" />

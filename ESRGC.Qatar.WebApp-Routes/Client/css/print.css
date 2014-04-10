@@ -1,0 +1,33 @@
+﻿@media print {
+    body, #container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    #map {
+        overflow: hidden;
+    }
+
+    #directionList {
+        max-height: 100%;
+        /*overflow-y: visible;*/
+    }
+    #directionContainer{
+        max-height: 100%;
+        border: none;
+    }
+    .panel {
+        border: none;
+    }
+    .leaflet-control{
+        display: none;
+    }
+    .leaflet-control-scale{
+        display:block;
+    }
+    
+}

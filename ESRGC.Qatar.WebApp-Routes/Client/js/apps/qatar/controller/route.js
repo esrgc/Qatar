@@ -16,11 +16,15 @@ dx library
 dx.defineController('Route', {
     refs: {
         fromRouteList: '#routeList-from',
-        toRouteList: '#routeList-to'
+        toRouteList: '#routeList-to',
+        printBtn: '#printBtn'
     },
     control: {
         fromRouteList: {
             change: 'onFromRouteChange'
+        },
+        printBtn: {
+            click: 'onPrintBtnClick'
         }
     },
     initialize: function() {
@@ -46,6 +50,9 @@ dx.defineController('Route', {
                 $(this).siblings().first().attr('selected', 'selected');
             }
         });
+    },
+    onPrintBtnClick: function(event, object) {
+        print();
     }
 
 });
