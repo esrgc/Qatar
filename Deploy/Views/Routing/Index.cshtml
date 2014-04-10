@@ -5,6 +5,7 @@
     <link href="~/Client/jsLib/leaflet-0.7.2/leaflet.css" rel="stylesheet" />
     <link href="~/Client/jsLib/leaflet.awesome-markers/leaflet.awesome-markers.css" rel="stylesheet" />
     <link href="~/Client/css/less/map.min.css" rel="stylesheet" />
+    <link href="~/Client/css/print.css" rel="stylesheet" />
 }
 @section header{
     <header class="header-content">
@@ -19,13 +20,18 @@
     <div class="row">
         <div class="col-md-12">
             <div class="panel panel-default">
-                <div class="panel-heading">QATAR Routes</div>
+                <div class="panel-heading">
+                    QATAR Routes
+                    <span class="pull-right no-print">
+                        <button type="button" class="btn btn-default btn-xs" id="printBtn"><i class="glyphicon glyphicon-print"></i></button>
+                    </span>
+                </div>
                 <div class="panel-body">
                     <form class="form-horizontal">
                         <div class="form-group">
-                            <label class="col-sm-1 control-label">From</label>
-                            <div class="col-sm-4">
-                                <select class="form-control col-sm-6" id="routeList-from">
+                            <label class="col-md-1 control-label">From</label>
+                            <div class="col-md-4">
+                                <select class="form-control col-md-6" id="routeList-from">
                                     <option value="from">-From-</option>
                                     <option value="USEmbassy">United Stated Embassy</option>
                                     <option value="TAMUQ">Texas A&M University at Qatar</option>
@@ -33,9 +39,9 @@
                                     <option value="AlDareen">Al Dareen</option>
                                 </select>
                             </div>
-                            <label class="col-sm-1 control-label">To</label>
-                            <div class="col-sm-4">
-                                <select class="form-control col-sm-6" id="routeList-to">
+                            <label class="col-md-1 control-label">To</label>
+                            <div class="col-md-4">
+                                <select class="form-control col-md-6" id="routeList-to">
                                     <option value="destination">-Destination-</option>
                                     <option value="USEmbassy">United Stated Embassy</option>
                                     <option value="TAMUQ">Texas A&M University at Qatar</option>
@@ -43,19 +49,19 @@
                                     <option value="AlDareen">Al Dareen</option>
                                 </select>
                             </div>
-                            <div class="col-sm-2">
+                            <div class="col-md-2 no-print">
                                 <button class="btn btn-default" type="button" id="routeBtn" data-url="@resourceUrl">Route</button>
                             </div>
                         </div>
                     </form>
                     <hr />
                     <div class="row">
-                        <div class="col-sm-8">
+                        <div class="col-md-8">
                             <div class="map" id="map">
                                 <div class="overlay"></div>
                             </div>
                         </div>
-                        <div class="col-sm-4">
+                        <div class="col-md-4">
                             <div class="post" id="directionContainer">
                                 <h4>Overview</h4>
                                 <p id="directionSummary">
